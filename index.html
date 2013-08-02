@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Starter Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+ 
+    <!-- styles -->
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="jquery.zrssfeed.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+ 
+    <!-- scripts -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.1/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    
+    
+	<script src="jquery.zrssfeed.min.js" type="text/javascript"></script>
+
+    
+    
+<script type="text/javascript">
+$(document).ready(function () {
+  $('#test').rssfeed('http://feeds.reuters.com/reuters/oddlyEnoughNews', {
+    limit: 5
+  });
+});
+</script>
+ 
+  </head>
+  <body>
+<div class="navbar navbar-fixed-top" style="padding: 0px">
+  <div class="navbar-inner">
+    <div class="container">
+ 
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <a   class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+ 
+      <!-- Be sure to leave the brand out there if you want it shown -->
+      <a class="brand" href="#">&nbsp;<i class="icon-rocket"></i>&nbsp; Mosaic U!</a>
+ 
+      <!-- Everything you want hidden at 940px or less, place within here -->
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+		  <li class="active">
+			 <a href="index.html"><i class="icon-home"></i>&nbsp;&nbsp; Home</a></li>
+		  <li><a href="events.html"><i class="icon-calendar"></i>&nbsp;&nbsp;  Events</a></li>
+		  <li><a href="events.html"><i class="icon-rss"></i>&nbsp;&nbsp; News</a></li>
+		  <li><a href="donate.html"><i class="icon-heart"></i>&nbsp;&nbsp; Donate</a></li>
+		  <li><a href="#"><i class="icon-thumbs-up-alt"></i>&nbsp;&nbsp; Social Media</a></li>
+	      <li><a href="#"><i class="icon-map-marker"></i>&nbsp;&nbsp; Networking</a></li>
+			
+		</ul>
+
+      </div>
+ 
+    </div>
+  </div>
+</div>
+    
+    
+    <div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span6">
+      <img src="image1.jpg">
+    </div>
+    <div class="span6">
+    <div class="row-fluid">
+    <div class="alert alert-success"><b>New!</b> Events added in California <button type="button" class="close" data-dismiss="alert">&times;</button></div>
+    <div class="span6">
+        <br/>
+        
+        <p><b>Hello!</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed libero lobortis, ultricies metus id, rutrum velit. Mauris feugiat ultrices ligula, sed mollis massa rutrum non. Nullam ultricies ac nisl ac tempor.  </p><br/>
+        
+        <h4><i class="icon-rss  pull-left icon-border"></i><a href="events.html">&nbsp;Mosaic U Alumni News </h4></a>
+ 
+    </div>
+    </div>
+    <div class="row-fluid">
+    <div class="span6">
+    <h4><i class="icon-calendar pull-left icon-border"></i><a href="events.html">&nbsp;Upcoming Events</h4></a><br/>
+	</div>
+    </div>
+    </div>
+
+    
+    
+    
+    
+    
+    
+    <div class="span6">
+	<div class="well well-small" style="text-align: center">
+  <h3><i class="icon-money icon-3x "></i><br/>  Donate to MU!</h3>
+  <p>Give Money!</p>
+  <p>
+    <a href="donate.html" class="btn btn-info">
+      <i class="icon-thumbs-up-alt"></i> Learn more
+    </a>
+  </p>
+	 </div>
+    </div>
+
+    </div>
+    </div>
+          <br/>
+          <div class="row-fluid">
+    <div class="span6" style="text-align: center">
+    <h5>Follow Mosaic U Online!</h5>
+    <hr>
+   
+    <h4><i class="icon-facebook-sign icon-border icon-2x"></i><i class="icon-twitter icon-border icon-2x"></i> <i class="icon-linkedin icon-border icon-2x"></i><i class="icon-instagram icon-border icon-2x"></i><i class="icon-youtube-sign icon-border icon-2x"></i></h4><br/>
+	</div>
+    </div>
+
+     
+  </body>
+</html>
