@@ -1,6 +1,6 @@
 
-@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
-@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css');
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css');
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js');
 @import url('http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
 
 
