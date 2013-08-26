@@ -1,12 +1,11 @@
 
-@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css');
-@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js');
-@import url('http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
+@import url('http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css');
+@import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
 
 
 .nav > li > a:focus {
 text-decoration: none;
-background-color: #fff, 0.0;
+background-color: #000, 0.0;
 	}
 
 
@@ -14,6 +13,7 @@ background-color: #fff, 0.0;
 
 .container {
   margin-top: 0px; 
+
 }
 
 /* below is some code reused from http://codepen.io/bradfrost/pen/sjiCv */

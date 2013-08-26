@@ -10,7 +10,7 @@
     width: 200px;
     height: 100%;
     top: 0;
-	left: -20px;
+	left: -0px;
     z-index: 9999;
     background: #fff;
     font-size: 0.9em;
@@ -70,6 +70,7 @@
     /* improves performance issues on mobile*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
+	margin: 10 10 0 0 
 }
 
 /* Site Overlay */
