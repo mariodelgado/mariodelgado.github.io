@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Mobile SDK Test</title>
 		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=no">
-		<!--Bootstrap CSS-->
+		<!--normalize CSS-->
 		<link rel="stylesheet" href="css/normalize.css">
 		<!--<link rel="stylesheet" href="css/demo.css"> -->
 		<!-- Pushy CSS -->
@@ -14,9 +14,7 @@
 		<link rel="stylesheet" href="style.css">
 		<!-- jQuery -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-		<script>
-			window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')
-		</script>
+
 		<!-- JS -->
 		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -36,92 +34,98 @@
 			}
 			
 		</style>
+		<!-- this is the RSS FEED -->
+		<script src="jquery.zrssfeed.min.js" type="text/javascript"></script>
+		<script>
+			window.confirm = function() {};
+			window.prompt = function() {};
+			window.open = function() {};
+			window.print = function() {};
+			 // Support hover state for mobile.
+			if (false) {
+				window.ontouchstart = function() {};
+			}
+		</script>
+		<style>
+			a:focus {
+				background: #000, 0!important;
+			}
+			
+		</style>
+		<!-- This is where you change the RSS Feed -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#test').rssfeed('http://feeds.reuters.com/reuters/oddlyEnoughNews', {
+					limit: 5
+				});
+			});
+		</script>
+		<!-- END RSS FEED -->
 	</head>
 	<body>
 		<!-- Pushy Menu -->
 		<nav class="pushy pushy-left" style="background:#CCC">
 			<ul style="margin: 10">
 				<li style="text-align:center">
-					<br>
 					<img class="image-responsive" width="120px" src="mosaic.png">
+					<br/>
 				</li>
 				<li>
 					<a href="newindex.html">
 						<i class="icon-home"></i>&nbsp;&nbsp; Home</a>
 				</li>
 				<li>
-					<a href="events.html">
-						<i class="icon-star"></i>&nbsp;&nbsp; Requirements</a>
-				</li>
-				<li>
 					<a href="events1.html">
-						<i class="icon-map-marker"></i>&nbsp;&nbsp; Visit Campus</a>
+						<i class="icon-calendar"></i>&nbsp;&nbsp; Events</a>
+				</li>
+				<li>
+					<a href="events.html">
+						<i class="icon-rss"></i>&nbsp;&nbsp; News</a>
+				</li>
+				<li>
+					<a href="donate.html">
+						<i class="icon-heart"></i>&nbsp;&nbsp; Donate</a>
 				</li>
 				<li>
 					<a href="#">
-						<i class="icon-info"></i>&nbsp;&nbsp; Request Info</a>
+						<i class="icon-thumbs-up-alt"></i>&nbsp;&nbsp; Social Media</a>
 				</li>
 				<li>
-					<a href="#">
-						<i class="icon-thumbs-up-alt"></i>&nbsp;&nbsp; Contact</a>
+					<a href="networking.html">
+						<i class="icon-map-marker"></i>&nbsp;&nbsp; Networking</a>
 				</li>
 			</ul>
+			<br/>
+			<br/>
+			<br/>
 		</nav>
-		<!-- Site Overlay DO NOT TOUCH -->
+		<!-- Site Overlay -->
 		<div class="site-overlay"></div>
+		<!-- Your Content -->
 		<div class="floating-menu">
 			<button type="button" class="btn menu-btn btn-block btn-info">&#9776; Menu</button>
 		</div>
 		<div id="container" style="  background-color: #EEE;">
-			<!-- Your Content Can Be Edited Below-->
 			<section class="col-md-12">
 				<div class="row">
 					<div class="col-md-6">
-						<center>
-							<h3>Mosaic U Admissions</h3>
-						</center>
-						<img class="img-responsive img-circle" src="http://distilleryimage2.ak.instagram.com/c4a793ac0d1111e39a1f22000ae801dd_7.jpg">
-					</div>
-					<div class="col-md-6">
-						<div class="row">
-							<div class="col-md-6">
-								<br/>
-								<p>
-									<b>Hello!</b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed libero lobortis, ultricies metus id, rutrum velit. Mauris feugiat ultrices ligula, sed mollis massa rutrum non. Nullam ultricies ac nisl ac tempor.</p>
-								
-								<div class="jumbotron">
-								<div class="container">
-									<h2>This is what a college should be!</h2>
-									<p>
-										<a class="btn btn-primary btn-lg">See More facts</a>
-									</p>
-								</div>
+						<!--Body content-->
+						<section class="span9 ">
+							<div>
+								<h4>Upcoming Events</h4>
 							</div>
-								<br/>
-								<h4>
-									<i class="icon-rss  pull-left icon-border"></i>
-									<a href="events.html">&nbsp;Learn More about Mosaic U!</a>
-								</h4>
-								
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6">
-							<h4>
-								<i class="icon-calendar pull-left icon-border"></i>
-								<a href="events.html">&nbsp;Visit Campus</a>
-							</h4>
-							<br/><br/><br/>
-						</div>
+							<div id="test"></div>
+						</section>
+						<!--Body content-->
+						<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+						
+
 					</div>
 				</div>
+			</section>
 		</div>
-		</section>
-		</div>
-		<!-- Pushy JS, load at end DO NOT TOUCH -->
+		<!-- Pushy JS -->
 		<script src="js/pushy.min.js"></script>
 	</body>
-	
-	
 
 </html>
