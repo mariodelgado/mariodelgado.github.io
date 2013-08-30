@@ -18,7 +18,11 @@ What is a MWE Capable of?
 <li>examples of sub pages</li>
 </ul>
 
-<p>What frameworks are used in the samples?</p>
+What frameworks are used in the samples?
+===
+---
+
+Bootstrap 3.0 / jQuery 1.10.1 / Fontawesome 3.2.1 / normalize.css 2.1.3 / modernizr 2.6.2 
 
 <p>[[Bootstrap]], an open-source, mobile-first framework maintained by a few employees at Twitter, is a rapidly growing framework supported by all modern smartphones and desktop browsers. Bootstrap is currently at release 3.0 and provides a consistent and responsive platform for presenting your content on the website, with simple tools that allow you to quickly layout your content and user interface elements. </p>
 
