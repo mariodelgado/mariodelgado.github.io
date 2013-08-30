@@ -1,25 +1,18 @@
+<!-- This is the Main page for the Alumni Module. -->
 <!DOCTYPE html>
 <html class="no-js">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!-- Change Title Here-->
 		<title>Mobile SDK Test</title>
 		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=no">
-		<!--Bootstrap CSS-->
+		<!--Normalize CSS-->
 		<link rel="stylesheet" href="css/normalize.css">
-		<!--<link rel="stylesheet" href="css/demo.css"> -->
 		<!-- Pushy CSS -->
 		<link rel="stylesheet" href="css/pushy.css">
 		<!--Bootstrap CSS-->
 		<link rel="stylesheet" href="style.css">
-		<!-- jQuery -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-		<script>
-			window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')
-		</script>
-		<!-- JS -->
-		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 		<style>
 			div.floating-menu {
 				position:fixed;
@@ -38,7 +31,7 @@
 		</style>
 	</head>
 	<body>
-		<!-- Pushy Menu -->
+		<!-- Menu: If you are creating new menu items, the struture must be copied to all pages. -->
 		<nav class="pushy pushy-left" style="background:#CCC">
 			<ul style="margin: 10">
 				<li style="text-align:center">
@@ -70,15 +63,18 @@
 						<i class="icon-map-marker"></i>&nbsp;&nbsp; Networking</a>
 				</li>
 			</ul>
-			<br/><br/><br/>
+			<br/>
+			<br/>
+			<br/>
 		</nav>
-		<!-- Site Overlay -->
+		<!-- Site Overlay for Menu -->
 		<div class="site-overlay"></div>
-		<!-- Your Content -->
 		<div class="floating-menu">
 			<button type="button" class="btn menu-btn btn-block btn-info">&#9776; Menu</button>
 		</div>
+		<!-- Your can change the background color in the next line -->
 		<div id="container" style="  background-color: #EEE;">
+			<!-- Your Content Goes Below -->
 			<section class="col-md-12">
 				<div class="row">
 					<div class="col-md-6">
@@ -89,8 +85,7 @@
 						<div class="row">
 							<div class="col-md-6">
 								<br/>
-								<p>
-									<b>Hello!</b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed libero lobortis, ultricies metus id, rutrum velit. Mauris feugiat ultrices ligula, sed mollis massa rutrum non. Nullam ultricies ac nisl ac tempor.</p>
+								<p><b>Hello!</b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed libero lobortis, ultricies metus id, rutrum velit. Mauris feugiat ultrices ligula, sed mollis massa rutrum non. Nullam ultricies ac nisl ac tempor.</p>
 								<br/>
 								<h4>
 									<i class="icon-rss  pull-left icon-border"></i>
@@ -104,15 +99,24 @@
 									<i class="icon-calendar pull-left icon-border"></i>
 									<a href="events.html">&nbsp;Upcoming Events</h4>
 								</a>
-								<br/><br/><br/>
+								<br/>
+								<br/>
+								<br/>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 		</div>
-		<!-- Pushy JS -->
+		<!-- JS DO NOT TOUCH (Unless you know what you're doing)-->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script>
+			window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')
+		</script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 		<script src="js/pushy.min.js"></script>
+		
 	</body>
 
 </html>
