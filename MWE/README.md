@@ -1,7 +1,7 @@
 #Documentation for Mobile Web Extensions
 
 
-<p>Mobile Web Extensions (MWE) are a set of frameworks selected by the Mosaic team to help our clients build consistent and content-rich web pages that serve as an extention to the currently native modules that are currently offered on the Mosaic Platform. A MWE is best used in cases where the data is more static than dynamic (news feeds, etc.)</p>
+Mobile Web Extensions (MWE) are a set of frameworks selected by the Mosaic team to help our clients build consistent and content-rich web pages that serve as an extention to the currently native modules that are currently offered on the Mosaic Platform. A MWE is best used in cases where the data is more static than dynamic (news feeds, etc.). An implementation of a MWE is 
 
 What is a MWE Capable of?
 ===
@@ -54,9 +54,9 @@ Resources
 
 <p>Though we do not directly provide support for MWE, we specifically chose our frameworks for their excellent community base. Here is a partial listing of great resources that will be helpful as you build new pages:</p>
 
-<p>[Bootstrap form generator](http://minikomi.github.io/Bootstrap-Form-Builder/) - a drag-and-drop interface for
+[Bootstrap form generator](http://minikomi.github.io/Bootstrap-Form-Builder/) - a drag-and-drop interface for
 [Bootsnipp](http://bootsnipp.com/snipps) - code snippets of common interface patterns
-[Bootsrap Documentation](http://getbootstrap.com/getting-started/) - great resource highlighting all the possible UI patterns available out-of-the-box</p>
+[Bootsrap Documentation](http://getbootstrap.com/getting-started/) - great resource highlighting all the possible UI patterns available out-of-the-box
 
 Warranty
 ===
