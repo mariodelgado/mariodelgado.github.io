@@ -54,8 +54,8 @@ Resources
 
 <p>Though we do not directly provide support for MWE, we specifically chose our frameworks for their excellent community base. Here is a partial listing of great resources that will be helpful as you build new pages:</p>
 
-[Bootstrap form generator](http://minikomi.github.io/Bootstrap-Form-Builder/) - a drag-and-drop interface for
-[Bootsnipp](http://bootsnipp.com/snipps) - code snippets of common interface patterns
+[Bootstrap form generator](http://minikomi.github.io/Bootstrap-Form-Builder/) - a drag-and-drop interface for bulding out forms. <br>
+[Bootsnipp](http://bootsnipp.com/snipps) - code snippets of common interface patterns <br>
 [Bootsrap Documentation](http://getbootstrap.com/getting-started/) - great resource highlighting all the possible UI patterns available out-of-the-box
 
 Warranty
