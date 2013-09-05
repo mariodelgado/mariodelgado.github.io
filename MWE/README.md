@@ -17,6 +17,9 @@ What is a MWE Capable of?
 <li>examples of sub pages</li>
 </ul>
 
+The advantages of using a MWE is a starter version of a single codebase that, when deployed, will be able to render information properly on any mobile device. To make this possible, we ask that you try to adhere to the grid http://getbootstrap.com/css/#grid layout methodology used by the bootstrap framework. 
+
+
 What frameworks are used in the samples?
 ===
 
