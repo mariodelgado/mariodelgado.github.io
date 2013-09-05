@@ -1,10 +1,13 @@
 #Documentation for Mobile Web Extensions
 
 
-Mobile Web Extensions (MWE) are a set of frameworks selected by the Mosaic team to help our clients build consistent and content-rich web pages that serve as an extention to the currently native modules that are currently offered on the Mosaic Platform. A MWE is best used in cases where the data is more static than dynamic (news feeds, etc.). An implementation of a MWE is 
+Mobile Web Extensions (MWE) are a set of frameworks selected by the Mosaic team to help our clients build consistent and content-rich web pages that serve as an extention to the currently native modules that are currently offered on the Mosaic Platform. A MWE is best used in cases where the data is more static than dynamic (news feeds, etc.). The sample code provided in this repo is designed to serve as a template to speed up the design and layout
+process of the mobile website. 
 
 What is a MWE Capable of?
 ===
+
+Implementing a MWE is designed for a user that has a working knowledge of HTML and CSS, and ideally some working experience with modern frameworks like jQuery or Bootstrap. 
 
 
 <p>Through a series of web frameworks selected by the Mosaic team for their mobile-friendly capabilities, broad community support, and long-term sustainability. The samples provided by the are designed for clients that may not have the development resources nor have near-future plans to create mobile-friendly sites. </p>
@@ -16,6 +19,12 @@ What is a MWE Capable of?
 <li>a sample menu structure</li>
 <li>examples of sub pages</li>
 </ul>
+
+In this sampple, two types of modules that are commonly implemented by our clients were used as examples to show best practices. 
+
++ Admissions
++ Alumni
+
 
 The advantages of using a MWE is a starter version of a single codebase that, when deployed, will be able to render information properly on any mobile device. To make this possible, we ask that you try to adhere to the grid http://getbootstrap.com/css/#grid layout methodology used by the bootstrap framework. 
 
@@ -47,6 +56,7 @@ Implementation
 
 
 <p>To get this site up and running, copy the entire folder to your server, and add a link to the directory on your Mosaic Springboard. </p>
+using the 
 
 Resources
 ===
