@@ -28,17 +28,18 @@ Bootstrap 3.0 / jQuery 1.10.1 / Fontawesome 3.2.1 / normalize.css 2.1.3 / modern
 
 [Bootstrap](getbootstrap.com), an open-source, mobile-first framework maintained by a few employees at Twitter, is a rapidly growing framework supported by all modern smartphones and desktop browsers. Bootstrap is currently at release 3.0 and provides a consistent and responsive platform for presenting your content on the website, with simple tools that allow you to quickly layout your content and user interface elements.
 
-<p>[jQuery](jquery.org) is a very popular open-source Javascript library that runs on top of (and plays well with) the Bootstrap framework. It is currently used by 65% of the top 10,000 websites. jQuery can be used in cases that require actions to be performed to the site or the site&#8217;s data, i.e. Forms and Searching.</p>
+[jQuery](jquery.org) is a very popular open-source Javascript library that runs on top of (and plays well with) the Bootstrap framework. It is currently used by 65% of the top 10,000 websites. jQuery can be used in cases that require actions to be performed to the site or the site&#8217;s data, i.e. Forms and Searching.
 
-<p>[Fontawesome](fontawesome.io) is a set of over 350 free scalable vector icons that allow you to add quick graphics to your website, and include a full set of commonly used social media icons for your use. </p>
+[Fontawesome](fontawesome.io) is a set of over 350 free scalable vector icons that allow you to add quick graphics to your website, and include a full set of commonly used social media icons for your use.
 
-<p>These frameworks are loaded into the sample documents by linking out to a Content Delivery Network, or CDN. These </p>
+These frameworks are loaded into the sample documents by linking out to a Content Delivery Network, or CDN, and are not hosted or maintained by the . These frameworks are updated quite often, and you will be notified of any major changes to these frameworks that might break your webpage. 
 
-<p>The sample also includes a suggested menu structure, which is built using [Pushy](https://github.com/christophery/pushy), a plugin for Bootstrap/jQuery, [[normalize]], a CSS plugin, and [modernizr](modernizr.com), a JS plugin. </p>
+
+The sample also includes a suggested menu structure, which is built using [Pushy](https://github.com/christophery/pushy), a plugin for Bootstrap/jQuery, [[normalize]], a CSS plugin, and [modernizr](modernizr.com), a JS plugin.
 
 #Making the sample content your own!
 
-<p>Feel free to use any text editor (we love [SubEthaEdit](http://www.codingmonkeys.de/subethaedit/) or [Brackets](brakets.io)) to edit the files. </p>
+Feel free to use any text editor (we love [SubEthaEdit](http://www.codingmonkeys.de/subethaedit/) or [Brackets](brakets.io)) to edit the files.
 
 Implementation
 ===
