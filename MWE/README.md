@@ -56,7 +56,7 @@ Implementation
 
 
 <p>To get this site up and running, copy the entire folder to your server, and add a link to the directory on your Mosaic Springboard. </p>
-using the 
+Using the sample content as a template, change the colors, branding and body text to your own.
 
 Resources
 ===
