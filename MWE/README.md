@@ -41,7 +41,7 @@ Bootstrap 3.0 / jQuery 1.10.1 / Fontawesome 3.2.1 / normalize.css 2.1.3 / modern
 
 [Fontawesome](fontawesome.io) is a set of over 350 free scalable vector icons that allow you to add quick graphics to your website, and include a full set of commonly used social media icons for your use.
 
-These frameworks are loaded into the sample documents by linking out to a Content Delivery Network, or CDN, and are not hosted or maintained by the . These frameworks are updated quite often, and you will be notified of any major changes to these frameworks that might break your webpage. 
+These frameworks are loaded into the sample documents by linking out to a Content Delivery Network, or CDN, and are not hosted or maintained by the Mosaic Team. These frameworks are updated quite often, and you will be notified of any major changes to these frameworks that might break your webpage. 
 
 
 The sample also includes a suggested menu structure, which is built using [Pushy](https://github.com/christophery/pushy), a plugin for Bootstrap/jQuery, [[normalize]], a CSS plugin, and [modernizr](modernizr.com), a JS plugin.
