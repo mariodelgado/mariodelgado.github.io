@@ -84,3 +84,86 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </ul>
+
+
+#Internal Documentation
+
+Internal Maintenance Plan
+
+Current Versions:
+Bootstrap 3.0 / jQuery 1.10.1 / Fontawesome 3.2.1 / normalize.css 2.1.3 / modernizr 2.6.2
+
+
+
+
+This set of frameworks are *usually* backwards compatible and upgrading to a newer version of a framework. 
+
+Bootstrap: Release notes at http://blog.getbootstrap.com/
+jQuery: http://blog.jquery.com/2013/07/03/jquery-1-10-2-and-2-0-3-released/
+font awesome: http://fontawesome.io/whats-new/
+normalize: https://github.com/necolas/normalize.css/
+modernizr: http://modernizr.com/download/
+
+These are all actively developed frameworks and JS libraries, and major updates to mobile web extensions should be made when release notes mention that there are deprecations or major feature changes to the libraries. For example, Bootstrap 3.0 changes many CSS classes cause updating the CSS/JS without replacing the HTML <div> tags will cause a website to break. Changes like this will not happen often. 
+
+It is recommended that clients and client coaches that are looking to implement a MWE look into these frameworks and 
+
+Ideally, release notes should be digested by the CSM team and relevant changes to the frameworks should be pushed to the clients along with a set of instructions for updating their own code. 
+
+The menu structure is a fork of https://github.com/christophery/pushy, and the underlying js/CSS should be updated once the development reaches a 1.0 milestone. 
+
+
+
+
+#Outstanding issues:
+
+Tablet support: though all of these frameworks support responsive layouts, it is the responsibility of the client to take care of their content layout. Clients should try to adhere to http://getbootstrap.com/css/#grid grid guidelines to optimize display on multiple devices. 
+
+
+Support of News and Events
+Though we do not want to replicate things that are already offered as part of our native module selection, many currently existing mobile web modules implemented do contain a news/events feed functionality that allows you to drill deeper into a MW app. If a client does request functionality, we have tried using the zRSSfeed jquery plugin, which is a very simple code injection that allows you to load rss feed entries. This is not supported, and has many dependencies, including a google feeds API that has the potential to be deprecated. 
+
+
+
+Finding a counselor (admissions only)
+Apps made by other companies like Straxis offer an admissions module that allows you to find a counselor. Because this uses many native API and SDK integrations, many of these functions (geolocation, larger database work, etc.) is not possible or very hard to do through a mobile web extension. We should advise our clients to rethink how they want to present information like counselor information and point them towards a more static presentation model. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sample copy text:
+
+This is a sample body text for your home page. We suggest keeping the front page to a minimum, and allowing a user to discover links through the menu and links on this page. use this page to explain the benefits of the alumni organization, while linking to a more detailed list of benefits. 
+
+Also use this page to include enticing photos. 
+
+
+
+
+Sample networking page:
+
+The Networking page can include many links to different areas that might provide career advancement or alumni networking links. 
+
+Facebook Alumni Page
+Linkedin University Page http://www.linkedin.com/edu/?tab=schools
+
+
+
+
+
+
+
+
+
+
