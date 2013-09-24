@@ -1,0 +1,24 @@
+<?xml version="1.0"?><svg width="1600" height="1200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient2748">
+   <stop stop-color="#ffffff" offset="0" id="stop2750"/>
+   <stop stop-color="#f4c204" offset="0.238095" id="stop2756"/>
+   <stop stop-color="#da7920" offset="1" id="stop2752"/>
+  </linearGradient>
+  <radialGradient xlink:href="#linearGradient2748" r="928.01429" id="radialGradient6166" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.40494292974472046,0.5723075270652771,-0.5485244393348694,0.3881132900714874,1278.5921630859375,214.88258361816406)" fy="1095.6877" fx="-242.85713" cy="1095.6877" cx="-242.85713"/>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="layer1">
+   <g id="svg_1">
+    <path fill="#924b38" stroke="#924431" stroke-width="11.717582" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" id="path6174" d="m1126.425659,748.126831a445.937073,421.935913 0 1 1 -891.874161,0a445.937073,421.935913 0 1 1 891.874161,0z"/>
+    <path fill="url(#radialGradient6166)" stroke="#924431" stroke-width="11.717582" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" id="path2852" d="m1112.256836,746.791382a431.395996,411.205841 0 1 1 -862.791885,0a431.395996,411.205841 0 1 1 862.791885,0z"/>
+    <path opacity="0.390374" fill="#7d4317" fill-opacity="0.596859" fill-rule="evenodd" stroke-width="1px" id="path2854" d="m727.712158,341.68158c0,0 249.05304,113.057007 312.954712,183.512878c0,0 -72.094116,-158.935272 -312.954712,-183.512878z"/>
+    <path fill="#55c837" fill-rule="evenodd" stroke="#328639" stroke-width="2.789896" stroke-miterlimit="4" id="path2856" d="m414.327698,28.554907c331.118347,41.726274 313.6203,293.430079 313.6203,293.430079c0,0 -270.548004,-20.190186 -313.6203,-293.430079z"/>
+    <path fill="#55c837" fill-rule="evenodd" stroke="#328639" stroke-width="2.789896" stroke-miterlimit="4" id="path2858" d="m731.985962,321.984985c131.908813,-235.551727 534.443848,-198.708244 656.930542,-292.928947c0,0 -31.68335,110.831993 -51.873657,136.406227c-20.190063,25.574173 -177.025879,316.697861 -605.056885,156.52272z"/>
+    <path fill="none" fill-rule="evenodd" stroke="#2d6d33" stroke-width="1.95847" stroke-linecap="round" stroke-miterlimit="4" id="path2860" d="m762.944275,308.524933c0,0 229.562012,-4.136993 489.341736,-172.388123"/>
+    <path fill="none" fill-opacity="0.75" fill-rule="evenodd" stroke="#319246" stroke-width="2.272564" stroke-linecap="round" stroke-miterlimit="4" id="path2862" d="m465.476105,68.935173c33.650208,71.338493 226.129669,218.053444 226.129669,218.053444"/>
+   </g>
+  </g>
+ </g>
+</svg>
