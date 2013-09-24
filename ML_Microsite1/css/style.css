@@ -16,7 +16,7 @@ html, body {
 
 
 .img1{
-  max-width:50%;
+  max-width:30%;
 }
 
 
@@ -970,6 +970,10 @@ height: 120%;
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+.img1{
+  max-width:80%;
 }
 
 
