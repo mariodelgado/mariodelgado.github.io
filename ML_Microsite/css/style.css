@@ -631,14 +631,14 @@ vertical-align: top;
 
 .mlogo{
   z-index: 11;
-width:  45%;
+width:  25%;
 
 
 }
 
 
 .bblogo{
-width:18%;
+width:11%;
   z-index: 12;
 }
 
@@ -786,7 +786,7 @@ margin-right: auto;
 }
 
 .header2{
-    font-weight:100; 
+    font-weight:300; 
     text-align:center; 
     font-size:30px
 }
