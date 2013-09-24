@@ -534,7 +534,7 @@ width:14%;
 }
 
 
-@media (min-height: 1000px) {
+@media (min-height: 1000px) and (max-width: 1700px) {
 
 .book1{
   z-index: 2;
@@ -582,10 +582,10 @@ vertical-align: bottom;
 width:60%;
 position: absolute;
 top: 14%;
-right:10%;
+right:0%;
 overflow: hidden;
 vertical-align: bottom;
-z-index: 9;
+z-index: 19;
 transform:          rotate(15deg);
 -ms-transform:      rotate(15deg);
 -moz-transform:     rotate(15deg);
@@ -598,121 +598,9 @@ z-index: 16;
 width:60%;
 position: absolute;
 bottom: 0%;
-left:05%;
-overflow: hidden;
-vertical-align: bottom;
-
-
-}
-
-.keyboard{
-z-index: 6;
-width:  100%;
-position: absolute;
-top:-20%;
-right:-55%;
-overflow: hidden;
-transform:          rotate(15deg);
--ms-transform:      rotate(15deg);
--moz-transform:     rotate(15deg);
--webkit-transform:  rotate(15deg);
-
-}
-.logoco{
-    z-index: 15;
-
-position: absolute;
-top:5%;
-left:5%;
-overflow: hidden;
-vertical-align: top;
-
-}
-
-.mlogo{
-  z-index: 11;
-width:  45%;
-
-
-}
-
-
-.bblogo{
-width:18%;
-  z-index: 12;
-}
-
-
-}
-
-
-@media (min-height: 1000px) {
-
-.book1{
-  z-index: 2;
-width:55%;
-position: absolute;
-bottom: -10%;
 left:-5%;
 overflow: hidden;
 vertical-align: bottom;
-}
-
-.book2{
-
-z-index: 3;
-width:50%;
-position: absolute;
-bottom: -5%;
-left:-2%;
-overflow: hidden;
-vertical-align: bottom;
-}
-
-.book3{
-z-index: 4;
-width:60%;
-position: absolute;
-bottom: -25%;
-left:-2%;
-overflow: hidden;
-vertical-align: bottom;
-
-}
-
-.book4{
-z-index: 5;
-width:60%;
-position: absolute;
-bottom: -18%;
-right:-10%;
-overflow: hidden;
-vertical-align: bottom;
-}
-
-.starbuck{
-width:60%;
-position: absolute;
-top: 14%;
-right:10%;
-overflow: hidden;
-vertical-align: bottom;
-z-index: 9;
-transform:          rotate(15deg);
--ms-transform:      rotate(15deg);
--moz-transform:     rotate(15deg);
--webkit-transform:  rotate(15deg);
-}
-
-.ipad{
-  
-z-index: 16;
-width:60%;
-position: absolute;
-bottom: 0%;
-left:05%;
-overflow: hidden;
-vertical-align: bottom;
 
 
 }
@@ -721,7 +609,7 @@ vertical-align: bottom;
 z-index: 6;
 width:  100%;
 position: absolute;
-top:-20%;
+top:-30%;
 right:-55%;
 overflow: hidden;
 transform:          rotate(15deg);
@@ -756,6 +644,8 @@ width:18%;
 
 
 }
+
+
 
 
 
