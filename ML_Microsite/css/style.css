@@ -1,3 +1,4 @@
+
 html, body {
 	height:100%;
     font-family: 'Lato', sans-serif !important; 
@@ -239,10 +240,10 @@ right:20%;
 overflow: hidden;
 vertical-align: bottom;
 z-index: 9;
-transform:          rotate(15deg);
--ms-transform:      rotate(15deg);
--moz-transform:     rotate(15deg);
--webkit-transform:  rotate(15deg);
+transform:          rotate(25deg);
+-ms-transform:      rotate(25deg);
+-moz-transform:     rotate(25deg);
+-webkit-transform:  rotate(25deg);
 }
 
 .ipad{
@@ -272,28 +273,98 @@ transform:          rotate(15deg);
 
 }
 .logoco{
-    z-index: 15;
-
+  width: 850px;
+    z-index: 25;
 position: absolute;
-top:5%;
-left:5%;
-overflow: hidden;
+height: 150px;
+top:15%;
+left:-5px;
+background-color: rgb(250,250,250);
 vertical-align: top;
+
+     -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
 
 }
 
 .mlogo{
   z-index: 11;
-width:  45%;
+width:  25%;
 
 
 }
 
 
 .bblogo{
-width:15%;
-  z-index: 12;
+width:200px;
+top:-78%;
+  z-index: 22;
+  position: absolute;
+
+height: auto;
+left: 5%;
+vertical-align: bottom;
 }
+
+
+
+.bbtext{
+  position: absolute;
+  font-weight: 300;
+font-size: 60px;
+right: 20%;
+text-align: center;
+color: rgb(40,40,40) !important;
+}
+
+i {
+  vertical-align: center;
+}
+
+.bbhorizontal{
+  position:absolute;
+width:100%;
+height: 50px;
+bottom:0%;
+background-color: rgb(240,240,240);
+text-align:center;
+
+     -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+ 
+
+}
+
+.left2{
+float:left;
+text-align: center;
+width:50%;
+color: #666;
+
+}
+
+.right2{
+float: right;
+width:50%;
+text-align: center;
+color: #666;
+
+}
+
+}
+.download{
+color: #666;
+vertical-align: center;
+line-height: 1.5;
+}
+
+
+
 
 
 .two {   
@@ -507,28 +578,35 @@ transform:          rotate(15deg);
 
 }
 .logoco{
-    z-index: 15;
+    z-index: 25;
+width:40%;
+height: 150px;
 
 position: absolute;
-top:5%;
-left:5%;
-overflow: hidden;
-vertical-align: top;
+top:15%;
+left:0%;
+background-color: white;
+
+
 
 }
 
 .mlogo{
-  z-index: 11;
-width:  30%;
-
+  z-index: 30;
+ 
 
 }
 
 
 .bblogo{
-width:14%;
-  z-index: 12;
+position: absolute;
+width:35%;
+height: auto;
+left: 5%;
+vertical-align: bottom;
+
 }
+
 
 
 }
@@ -619,13 +697,19 @@ transform:          rotate(15deg);
 
 }
 .logoco{
-    z-index: 15;
-
+    z-index: 25;
 position: absolute;
-top:5%;
-left:5%;
-overflow: hidden;
+width: 650px;
+height: 150px;
+top:15%;
+left:-5px;
+background-color: rgb(250,250,250);
 vertical-align: top;
+
+     -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
 
 }
 
@@ -638,9 +722,21 @@ width:  25%;
 
 
 .bblogo{
-width:11%;
-  z-index: 12;
+width:200px;
+top:-80%;
+  z-index: 22;
+  position: absolute;
+
+height: auto;
+left: 5%;
+vertical-align: bottom;
 }
+
+
+.bbtext{
+  right: 10%;
+}
+
 
 
 }
@@ -668,7 +764,6 @@ text-align: center;
 
 }
 .header1{
-    font-weight:100; 
     text-align:center; 
     font-size:40px
 }
@@ -798,7 +893,6 @@ margin-right: auto;
     height: 200px;
 }
 .header1{
-    font-weight:100; 
     text-align:center; 
     font-size:30px
 }
@@ -845,7 +939,6 @@ padding-right: 10px;
 }
 
 .header2{
-    font-weight:100; 
     text-align:center; 
     font-size:28px
 }
@@ -884,8 +977,8 @@ bottom:-5%;
 
 .starbuck {
   width:110%;
-  right: -45%;
-  top:0%;
+  right: -30%;
+  top:-10%;
 }
 
 
@@ -978,10 +1071,63 @@ height: 120%;
 
 
 
+.logoco{
+    z-index: 25;
+position: absolute;
+width: 101%;
+height: 140px;
+top:25%;
+left:-1px;
+background-color: rgb(250,250,250);
+vertical-align: top;
+
+     -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+.mlogo{
+  z-index: 11;
+width:  25%;
 
 
+}
 
 
+.bblogo{
+width:160px;
+top:-65%;
+  z-index: 22;
+  position: absolute;
+
+height: auto;
+left: 5%;
+vertical-align: bottom;
+}
+
+
+.bbtext{
+  position: relative;
+  z-index:90;
+ right:0%;
+  font-size:37px;
+  top:43%%;
+}
+
+.bbhorizontal{
+  height: 70px;
+  box-shadow: 0 5px 5px -5px    #888888;
+}
+
+.left2{
+float:left;
+}
+
+.right2{
+float: right;
+}
 .arrow-down {
 display: none;
 
