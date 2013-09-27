@@ -3,10 +3,14 @@
   <head>
 
   <meta name="apple-itunes-app" content="app-id=376413870">
+      <meta name="google-play-app" content="app-id=com.hulu.plus">
+
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="jquery.smartbanner.css" type="text/css" media="screen">
+
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -29,6 +33,11 @@
   </head>
 
   <body>
+
+  <!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
 
    <header class="stripe"></header>
 
@@ -266,6 +275,20 @@
     <script src="js/jquery.js"></script>
         <script type="text/javascript" charset="utf-8" src="iphone%201_edgePreload.js"></script>
 
+<script type="text/javascript">
+    //<![CDATA[
+        $(window).load(function() { // makes sure the whole site is loaded
+            $("#status").fadeOut(); // will first fade out the loading animation
+            $("#preloader").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
+        })
+    //]]>
+</script>
+
+
+
+
+
+
     <script src="waypoints.js"></script>
 
     <script type="text/javascript">
@@ -392,7 +415,10 @@ setInterval(function() {
 </script>
 
 
-
+    <script src="jquery.smartbanner.js"></script>
+    <script type="text/javascript">
+      $(function() { $.smartbanner() } )
+    </script>
 
 
 
@@ -400,6 +426,4 @@ setInterval(function() {
 
 
   </body>
-</html>
-y>
 </html>
