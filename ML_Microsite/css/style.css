@@ -46,6 +46,7 @@ font-family: 'Lato', sans-serif !important;
 width:110%; 
 background-color: darkgrey;
 opacity: 0.4;
+
 }
 
 .small3{
@@ -73,6 +74,7 @@ padding-right: 20px;
     
     position: relative; 
     height: 300px;
+    z-index: 101;
 }
 
 .header1{
@@ -273,10 +275,10 @@ transform:          rotate(15deg);
 
 }
 .logoco{
-  width: 850px;
+  width: 650px;
     z-index: 25;
 position: absolute;
-height: 150px;
+height: 90px;
 top:15%;
 left:-5px;
 background-color: rgb(250,250,250);
@@ -286,7 +288,7 @@ vertical-align: top;
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
     border-radius: 5px;
-
+  box-shadow: 5px 5px 5px -5px    #888888;
 }
 
 .mlogo{
@@ -299,12 +301,12 @@ width:  25%;
 
 .bblogo{
 width:200px;
-top:-78%;
+top:-128%;
   z-index: 22;
   position: absolute;
 
 height: auto;
-left: 5%;
+margin-left: 5%;
 vertical-align: bottom;
 }
 
@@ -313,9 +315,9 @@ vertical-align: bottom;
 .bbtext{
   position: absolute;
   font-weight: 300;
-font-size: 60px;
-right: 20%;
-text-align: center;
+font-size: 50px;
+left:40%;
+
 color: rgb(40,40,40) !important;
 }
 
@@ -465,6 +467,7 @@ border-top: 16px solid #fff;
 
   .slide3 {
     height: inherit;
+    z-index: 100;
 }
 
 
@@ -579,12 +582,12 @@ transform:          rotate(15deg);
 }
 .logoco{
     z-index: 25;
-width:40%;
-height: 150px;
+width:580px;
+height: 90px;
 
 position: absolute;
-top:15%;
-left:0%;
+top:20%;
+left:-5px;
 background-color: white;
 
 
@@ -601,11 +604,27 @@ background-color: white;
 .bblogo{
 position: absolute;
 width:35%;
+top:-120%;
 height: auto;
-left: 5%;
+margin-left: 5%;
 vertical-align: bottom;
 
 }
+
+.bbtext{
+  position: absolute;
+  font-weight: 300;
+font-size: 50px;
+left:45%;
+top: 5%;
+
+color: rgb(40,40,40) !important;
+}
+
+i {
+  vertical-align: center;
+}
+
 
 
 
@@ -700,7 +719,7 @@ transform:          rotate(15deg);
     z-index: 25;
 position: absolute;
 width: 650px;
-height: 150px;
+height: 90px;
 top:15%;
 left:-5px;
 background-color: rgb(250,250,250);
@@ -723,13 +742,13 @@ width:  25%;
 
 .bblogo{
 width:200px;
-top:-80%;
+top:-120%;
   z-index: 22;
   position: absolute;
 
 height: auto;
 left: 5%;
-vertical-align: bottom;
+
 }
 
 
@@ -875,7 +894,6 @@ margin-right: auto;
 #slideshow { 
     
     position: relative; 
-   padding-bottom: 150px;
 }
 
 }
@@ -918,14 +936,13 @@ height:90%;
 
   }
 .slide3{
-    padding-bottom: 20%;
-   height: 65%
+   height: 65%;
+   top:-10%;
 }
 
 #slideshow { 
     
     position: relative; 
-    height: 15px;
 }
 
 .half {
@@ -976,9 +993,7 @@ bottom:-5%;
 }
 
 .starbuck {
-  width:110%;
-  right: -30%;
-  top:-10%;
+display:none;
 }
 
 
@@ -1111,9 +1126,9 @@ vertical-align: bottom;
 .bbtext{
   position: relative;
   z-index:90;
- right:0%;
+left:15%;
   font-size:37px;
-  top:43%%;
+  top:45%;
 }
 
 .bbhorizontal{
@@ -1137,6 +1152,99 @@ display: none;
     0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
     50% {opacity: 1.0;}
     100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+}
+
+
+
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+
+.logoco{
+    z-index: 25;
+position: absolute;
+width: 420px;
+height: 90px;
+top:25%;
+left:-5px;
+background-color: rgb(250,250,250);
+vertical-align: top;
+
+     -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+  box-shadow: 5px 5px 5px -5px    #888888;
+
+
+}
+
+
+.bblogo{
+width:160px;
+top:-85%;
+  z-index: 22;
+  position: absolute;
+text-align: center;
+height: auto;
+
+    vertical-align: bottom;
+}
+
+
+
+.bbtext{
+  position: relative;
+  z-index:90;
+  font-size:39px;
+  top:15%;
+text-align: left;
+}
+
+.ipad{
+      width:90%;
+bottom:-0%;
+left:30%;
+
+}
+
+
+.book1 {
+width:90%;
+bottom:-15%;
+}
+
+.book2{
+
+  width:70%;
+bottom:-5%;
+}
+
+
+.book3{
+    width:80%;
+bottom:-15%;
+}
+
+.book4{
+      width:80%;
+bottom:-25%;
+right: -5%;
+}
+
+.starbuck{
+  width: 70%;
+  top:15%;
+right:-10%;
+}
+
+.keyboard{
+  top:-25%;
+  width:120%; 
 }
 
 }
