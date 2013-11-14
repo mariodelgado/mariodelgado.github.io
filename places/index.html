@@ -189,7 +189,7 @@
 			  	if (mousePos) {
 			  		
 			  		var p = d3.mouse(svg[0][0]);
-				    projection.rotate([lambda(p[0]), phi(p[0.7])]);
+				    projection.rotate([lambda(p[1]), phi(p[1])]);
 				    svg.selectAll("path").attr("d", path);
 					
 			    };
