@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>OpenPaths Map</title>
+<meta charset="utf-8">
+  <style>
+    #map { height: 600px; }
+  </style>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css">
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css">
+  <![endif]-->
+
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://d3js.org/topojson.v0.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+
+
+  <script>
+    $(function() {
+      function project(x) {
+        var point = map.latLngToLayerPoint(new L.LatLng(x[1], x[0]));
+        return [point.x, point.y];
+      }
+
+
+      var map = L.map('map').setView([39.833333, -98.585833], 5);
+      L.tileLayer('http://{s}.tile.cloudmade.com/0156eb15235c433487c65cf50235a587/998/256/{z}/{x}/{y}.png', {
+          attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+          maxZoom: 18
+      }).addTo(map);
+      var svg = d3.select(map.getPanes().overlayPane).append("svg");
+      var g = svg.append("g").attr("class", "leaflet-zoom-hide");
+
+      d3.json("openpaths.json", function(error, data) {
+        var locations = convertToGeoJSON(data);
+        var bounds = d3.geo.bounds(locations);
+        var path = d3.geo.path().projection(project);
+
+        var feature = g.selectAll("path")
+            .data(locations.features)
+            .enter().append("path");
+
+        map.on("viewreset", reset);
+        reset();
+
+        function reset() {
+          var bottomLeft = project(bounds[0]),
+              topRight = project(bounds[1]);
+
+          svg .attr("width", topRight[0] - bottomLeft[0])
+              .attr("height", bottomLeft[1] - topRight[1])
+              .style("margin-left", bottomLeft[0] + "px")
+              .style("margin-top", topRight[1] + "px");
+
+          g   .attr("transform", "translate(" + -bottomLeft[0] + "," + -topRight[1] + ")");
+
+          feature.attr("d", path);
+        };
+
+      });
+    });
+
+    function convertToGeoJSON(data) {
+      var locationsFromOpenPaths = d3.map(data);
+      var features = [];
+
+      locationsFromOpenPaths.forEach(function(key, value) {
+        var feature = {
+          type: "Feature",
+          id: key,
+          geometry: {
+            type: "Point",
+            coordinates: [value["lon"], value["lat"]]
+          },
+          properties: {
+            version: value["version"],
+            timestamp: value["t"],
+            device: value["device"],
+            altitude: value["alt"],
+            os: value["os"]
+          }
+        };
+
+        features.push(feature);
+      });
+
+      return { type: "FeatureCollection", features: features };
+    };
+
+
+  </script>
+</head>
+<body>
+  <div id="content">
+    <div id="map"></div>
+  </div>
+</body>
+</html>
