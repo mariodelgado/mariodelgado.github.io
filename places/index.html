@@ -140,7 +140,7 @@
 			// Setup zoom behavior:
 		    var zoom = d3.behavior.zoom(true)
 		        .scale( projection.scale() )
-		        .scaleExtent([100, 800])
+		        .scaleExtent([100, 900])
 		        .on("zoom", globeZoom);
 
 		    svg.call(zoom)
@@ -189,7 +189,7 @@
 			  	if (mousePos) {
 			  		
 			  		var p = d3.mouse(svg[0][0]);
-				    projection.rotate([lambda(p[0]), phi(p[1])]);
+				    projection.rotate([lambda(p[0]), phi(p[0])]);
 				    svg.selectAll("path").attr("d", path);
 					
 			    };
