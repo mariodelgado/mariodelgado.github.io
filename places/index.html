@@ -26,7 +26,7 @@
 			// Define the type of map projection we want: (see https://github.com/mbostock/d3/wiki/Geo-Projections)
 		    var projection = d3.geo.orthographic()
 			    .scale(350) // scale the map
-			   .rotate([-90,0,0])
+			   .rotate([90,0,0])
 			    .translate([width / 2, height / 2]) // set the center of the map to be the center of the canvas
 			    .clipAngle(90);
 
