@@ -6,6 +6,7 @@ body {
 
             .geo-globe {
                 fill: rgba(255,255,255,0.6);
+                stroke:rgba(209, 221, 243,.9);
                 box-shadow: 10px 10px 5px #888888;
             }
 
@@ -22,7 +23,7 @@ body {
             .geo-node {
                 stroke-width: 0.0;
                 stroke: rgba(251,136,118, 0.66); 
-                fill: rgba(251,136,118, 0.66); 
+                fill: rgba(209, 221, 243, 0.66); 
                 
                 cursor: pointer;                
             }
@@ -38,6 +39,8 @@ body {
 height: 50px;
 color: rgba(255,255,255,.5);
 position: fixed;
+left:auto;
+right: auto;
 top: 0;
 font-family: 'Raleway', sans-serif;
 
