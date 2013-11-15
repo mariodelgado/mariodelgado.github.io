@@ -39,7 +39,7 @@ body {
 .header{
 height: 50px;
 width:100%;
-background: rgba(255,255,255,.5);
+background: rgba(255,255,255,.8);
 position: fixed;
 left:auto;
 right: auto;

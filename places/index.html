@@ -11,7 +11,7 @@
 	</head>
 	<body>
 	<div  class="header" style="text-align:center">
-	<h1>Mario's Most Recent 5,000 Checkins</h1></div>
+	<h1>Most Recent Foursquare Checkins </h1></div>
 		<script>
 			// Initialize some variables:
 			var element = 'body',
@@ -26,6 +26,7 @@
 			// Define the type of map projection we want: (see https://github.com/mbostock/d3/wiki/Geo-Projections)
 		    var projection = d3.geo.orthographic()
 			    .scale(350) // scale the map
+			    .center([-50,33])
 			    .translate([width / 2, height / 2]) // set the center of the map to be the center of the canvas
 			    .clipAngle(90);
 
