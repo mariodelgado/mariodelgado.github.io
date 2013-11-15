@@ -23,7 +23,7 @@ body {
 
             .geo-node {
                 stroke-width: 0.0;
-                stroke: rgba(251,136,118, 0.66); 
+                stroke: rgba(209, 221, 243, 0.66); 
                 fill: rgba(209, 221, 243, 0.66); 
                 
                 cursor: pointer;                
@@ -31,7 +31,7 @@ body {
 
                 .geo-node:hover {
                     stroke: rgba(251,136,118, 0.66); 
-                    fill: #666666;
+                    fill: #fb8876;
 
                 }
 
