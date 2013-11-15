@@ -1,0 +1,35 @@
+body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+            }
+
+            .geo-globe {
+                fill: rgba(0,0,10,0.1);
+            }
+
+            .geo-path {
+                fill: #132A50; 
+                stroke: #dddddd;
+                stroke-width: 0.2;
+            }
+
+                .geo-path:hover {
+                    fill: #3B5998;
+                }
+
+            .geo-node {
+                stroke-width: 0.0;
+                stroke: rgba(251,136,118, 0.66); 
+                fill: rgba(251,136,118, 0.66); 
+                
+                cursor: pointer;                
+            }
+
+                .geo-node:hover {
+                    stroke: #a00;
+                    fill: #a00;
+
+                }
+
+
