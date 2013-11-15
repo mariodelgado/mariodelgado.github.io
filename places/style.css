@@ -18,7 +18,7 @@ body {
             }
 
                 .geo-path:hover {
-                    fill: ##64676f;
+                    fill: #eeeeee;
                 }
 
             .geo-node {
