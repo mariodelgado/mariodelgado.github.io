@@ -6,6 +6,7 @@ body {
 
             .geo-globe {
                 fill: rgba(255,255,255,0.6);
+                stroke-width: 1.0;
                 stroke:rgba(209, 221, 243,.9);
                 box-shadow: 10px 10px 5px #888888;
             }
@@ -17,7 +18,7 @@ body {
             }
 
                 .geo-path:hover {
-                    fill: #3B5998;
+                    fill: ##64676f;
                 }
 
             .geo-node {
