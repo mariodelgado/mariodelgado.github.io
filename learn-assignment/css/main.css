@@ -36,7 +36,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #eee;
     margin: 1em 0;
     padding: 0;
 }
@@ -92,7 +92,8 @@ textarea {
   padding-left: 15px;
   padding-top: 10px;
   height:70px;
-  background-color:#eee;
+  background-color:#fffeff;
+  border: 1px solid #eee;
   z-index: 2;
 }
 
@@ -154,9 +155,10 @@ textarea {
   width: 81.5%;
   line-height: 1.5em;
   font-family: inherit;
-  border: none;
+  border: 1px solid #eee;
   color: #121212;
-  background: #ededed;
+  background: #fffeff;
+
   overflow: auto;
   resize: none;
   padding-top: 0.75em;
@@ -184,7 +186,7 @@ input[type=url]:focus,
 input[type=password]:focus,
 textarea:focus {
   outline: 0;
-  border: none;
+  border: 1px solid #bbb;
 }
 
 
@@ -192,9 +194,11 @@ textarea:focus {
 
 
 .box{
+  display: block;
   position: relative;
     width:960px;
-    min-height: 600px;
+    height: 80%;
+    margin-bottom: 100%;
     background-color: #fff;
     margin-left: auto;
     margin-right:auto;
@@ -223,6 +227,7 @@ background-color: white;
 float: right;
 margin-top: 0.17em;
 padding-top: 18px;
+margin-right: 15px;
 
 }
 
@@ -236,12 +241,12 @@ content: url(http://kiwianon.com/forums/Themes/Simple_Green/images/on2.png);
 
 
 .footer{
-  position: absolute;
+  display: relative;
+  position: fixed;
   bottom: 0px;
-    margin-left: auto;
-    margin-right:auto;
-  width:100%;
+margin: 0 auto;
   height: 55px;
+  width:960px;
   background-color: white;
   z-index: 2;
 box-shadow: 0 0 0 1px #eee inset;
@@ -295,12 +300,73 @@ vertical-align: middle;
 }
 
 
+.footer2 .submit{
+  float: right;
+  vertical-align: middle;
+  position: relative;
+  top:30%;
+  padding-right: 40px;
+}
+
+.footer2 .cancel{
+  float:right;
+  vertical-align: middle;
+  position: relative;
+  top:30%;
+  padding-right: 130px;
+}
+
+
+.add1{
+
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 40px;
+  color: #bbb;
+}
+
+.add1:hover{
+width:80%;
+margin-left: 10%;
+background-color: #eee;
+}
+
 
 .options1visible 
 
 .option2visible
 
 .options3visible
+
+
+.key-value-wrap {
+  padding: 0 0 12px;
+  -webkit-break-inside: avoid-column;
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  column-break-inside: avoid; }
+
+  .label {
+  width: 140px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 12px;
+  color: #666666; }
+
+  .inputs {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 340px;
+  /* !!! Proto only. Remove. */ }
+  /* line 127, ../sass/_data-collection.scss */
+  .inputs br {
+    display: block;
+    height: 6px; }
+
+
+
+
+
 
 
 /*
@@ -342,6 +408,14 @@ vertical-align: middle;
 
 /* uswitch modals v0.5 - https://github.com/uswitch/ustyle-modals */
 /* lock the viewport height (stops content scrolling on all bar ios) */
+
+
+.footer2{
+  display:none;
+}
+
+
+
 .us-modal-on body {
   height: 100%;
   overflow: hidden;
@@ -350,7 +424,7 @@ vertical-align: middle;
 /* overlay */
 .us-modal-overlay {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -373,7 +447,7 @@ vertical-align: middle;
 /* modal box */
 .us-modal-box {
   display: none;
-  position: fixed;
+  position: absolute;
   left: 50%;
   z-index: 9999;
   width: 600px;
@@ -409,7 +483,7 @@ vertical-align: middle;
   margin: 0;
   padding: 0.3em 2.3em 0.3em 0.5em;
   color: white;
-  background-color: #00b7ff;
+  background-color: #666666;
   font-family: "FS Elliot Web Regular", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: normal;
@@ -477,7 +551,7 @@ vertical-align: middle;
 }
 
 .us-modal-xl {
-  position:relative;
+  position:absolute;
   bottom:0;
   width: 960px;
   margin-left: -480px;
@@ -491,12 +565,12 @@ vertical-align: middle;
   top: 0;
   bottom: 0;
   width: 1.2em;
-  background-color: #3fc9ff;
+  background-color: #aaa;
   background: -moz-linear-gradient(top, #df4a3a 0%, #df4a3a 50%, #3fc9ff 50%, #3fc9ff 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #df4a3a), color-stop(50%, #df4a3a), color-stop(50%, #3fc9ff), color-stop(100%, #3fc9ff));
   background: -webkit-linear-gradient(top, #df4a3a 0%, #df4a3a 50%, #3fc9ff 50%, #3fc9ff 100%);
   background: -ms-linear-gradient(top, #df4a3a 0%, #df4a3a 50%, #3fc9ff 50%, #3fc9ff 100%);
-  background: linear-gradient(to bottom, #df4a3a 0%, #df4a3a 50%, #3fc9ff 50%, #3fc9ff 100%);
+  background: linear-gradient(to bottom, #df4a3a 0%, #df4a3a 50%, #aaa 50%, #aaa 100%);
   background-size: 100% 200%;
   background-position: 0 100%;
   text-indent: -9em;
@@ -549,6 +623,8 @@ vertical-align: middle;
 .us-modal-footer .us-modal-content {
   max-height: 350px;
   max-height: 62vh;
+  font-size: 14px;
+  line-height: 20px;
 }
 .us-modal-footer footer {
   display: block;
@@ -580,6 +656,9 @@ vertical-align: middle;
   .us-modal-box.us-modal-footer .us-modal-content, .us-modal-xl.us-modal-footer .us-modal-content, .us-modal-l.us-modal-footer .us-modal-content, .us-modal-m.us-modal-footer .us-modal-content, .us-modal-s.us-modal-footer .us-modal-content, .us-modal-xs.us-modal-footer .us-modal-content {
     bottom: 50px !important;
   }
+
+
+
 }
 /* default responsive block */
 /* width - XL 800px */
@@ -588,23 +667,43 @@ vertical-align: middle;
     display: none;
   }
 
+.footer{
+display:none;
+
+}
+
+
+.footer2{
+  display: inline-block;
+position: absolute;
+bottom: 0px;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 55px;
+background-color: white;
+z-index: 2;
+box-shadow: 0 0 0 1px #eee inset;
+}
+
+
   .box{
   position: relative;
     width:100%;
     min-height: 600px;
-    background-color: #ccc;
+    background-color: #fff;
     margin-left: auto;
     margin-right:auto;
 z-index: 1;
 }
 
   .us-modal-xl {
-    top: 140px;
+/*    top: -30px; */
     left: 0;
     right: 0;
     bottom: 0;
     width: auto;
-    max-height: 100%;
+    height: 100%;
     margin: 0;
   }
   .us-modal-xl.us-modal-dir-bottom {
@@ -634,6 +733,13 @@ z-index: 1;
     bottom: 0;
   }
 }
+
+#prebuilt-modal1
+{
+z-index:9997;
+
+}
+
 /* width - L 700px */
 @media screen and (max-width: 700px) {
   .us-modal-on.us-modal-root-l .us-modal-overlay {

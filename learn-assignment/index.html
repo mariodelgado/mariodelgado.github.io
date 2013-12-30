@@ -25,40 +25,126 @@
 
 
 <div class="box">
+<div class="bg" style="height:100%; z-index:2; width:960px; background-color:#fff; text-align:center;"></div>
 
 
 <div class="head"><h1> New Assignment</h1><div class="vis">Visible to users: </div> </div>
+<hr>
 
 
-
-
+<br>
 
 <form action="#" style="margin: 0 auto;">
  <p><textarea  placeholder="Enter Description Here"></textarea></p> 
 </form>
-<section id="prebuilt-modal" class="us-modal-box us-modal-footer" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true" style="display:none; display:none;height: 400px;">
+<div class="add1"> Drag files here. &nbsp Or select files from your computer, Content Collection, or xpLor </div>
+
+<section id="prebuilt-modal1" class="us-modal-box us-modal-footer" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true" style="display:none; height: 500px;">
+  <header>
+    <h2 class="us-modal-title">Select an Option</h2>
+    <a href="#!" class="us-modal-close">X</a>
+  </header>
+  <div class="us-modal-content">
+
+     <a href="#prebuilt-modal" class="us-modal" data-width="xl">Options</a> <br>
+
+      <a href="#" class="options1">Restrictions</a><br><a href="#" class="options2">Goals</a> 
+</div>
+
+</section>
+
+
+<section id="prebuilt-modal" class="us-modal-box us-modal-footer" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true" style=" display:none;height: 500px;">
   <header>
     <h2 class="us-modal-title">Options 1</h2>
     <a href="#!" class="us-modal-close">X</a>
   </header>
   <div class="us-modal-content">
-    <h2>Options</h2>
-    <label for="css">Do you like CSS?</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-        <input type="checkbox" id="css" name="css" />
-<br><br><br>
-        <label for="Fav">Favorite language?</label><br>
-        <input type="radio" name="Fav" /> CSS &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-        <input type="radio" name="Fav" /> HTML&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-        <input type="radio" name="Fav" /> PHP&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-        <input type="radio" name="Fav" /> JavaScript
+   <div class="spoke-content columns" style="">
+        
+            
+            <div class="key-value-wrap">
+                <div class="label"><input type="checkbox">  Multiple Attempts</div>
+                <div class="inputs">
+                    <label><input type="radio"> Allow Unlimited Attempts</label><br>
+                    <label><input type="radio"> Number of Attempts</label> <input type="text" disabled="" size="3">
+                </div>
+            </div><br>
+            
+            <div class="key-value-wrap">
+                <div class="label">Recipients</div>
+                <div class="inputs">
+                    <label><input type="radio"> All Students individually</label><br>
+                    <label><input type="radio"> Groups of Students</label> 
+                </div>
+            </div><br>
+            
+            <div class="form-group">
+            <div class="key-value-wrap">
+                <div class="label">Primary Display</div>
+                <div class="inputs">
+                    <select>
+                        <option>Score</option>
+                    </select>
+                </div>
+            </div><br>
+            
+            <div class="key-value-wrap">
+                <div class="label">Secondary Display</div>
+                <div class="inputs">
+                    <select>
+                        <option>None</option>
+                    </select>
+                </div>
+            </div>
+            </div><br>
+
+            
+            <div class="key-value-wrap">
+                <div class="label">Score attempts using</div>
+                <div class="inputs">
+                    <select>
+                        <option>Last Graded Attempt</option>
+                    </select>
+                </div>
+            </div><br>
+            
+            <div class="key-value-wrap">
+                <div class="label">Category</div>
+                <div class="inputs">
+                    <select>
+                        <option>Test</option>
+                    </select>
+                </div>
+            </div><br>
+            
+            <div class="key-value-wrap">
+                <div class="label">Points Possible</div>
+                <div class="inputs">
+                    <input type="text" disabled="" size="3" value="70">
+                </div>
+            </div><br>
+            
+            <div class="key-value-wrap">
+                <div class="label">Associated rubrics</div>
+                <div class="inputs">
+                    <a href="#">Add Rubric</a>
+                </div>
+            </div><br>
+            
+            
+        </div>
 
   </div>
   <footer>
-    <p>Back</p>
+    <p style="float:right;"><a href="#!">Back</a></p>
   </footer>
 </section>
 
-<div class="box2">Due Date<div class="date">October 2, 2013</div><div class="edit">Edit</div></div>
+
+
+
+<div class="box2">Due Date<div class="date">October 2, 2013</div><div class="edit">Edit</div></div> <br> <Br>
 
 
 
@@ -67,10 +153,22 @@
 
 <div class="footer">
  <a href="#prebuilt-modal" class="us-modal" data-width="xl">Options</a>
+ <a href="#" class="options1">Restrictions</a><a href="#" class="options2">Goals</a> 
+<a href="#" class="submit">Submit</a><a href="#" class="cancel">Cancel</a></div>
 
-<a href="#" class="options1">Restrictions</a><a href="#" class="options2">Goals</a> <a href="#" class="submit">Submit</a><a href="#" class="cancel">Cancel</a></div>
+
+
+<div class="footer2">
+ <a href="#prebuilt-modal1" class="us-modal" data-width="xl">Options</a>
+
+ <a href="#" class="submit">Submit</a><a href="#" class="cancel">Cancel</a></div>
+
+
 
 </div>
+
+
+
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
