@@ -195,14 +195,13 @@ textarea:focus {
 
 .box{
   display: block;
-  position: relative;
     width:960px;
     height: 80%;
-    margin-bottom: 100%;
+    padding-bottom: 20%;
     background-color: #fff;
     margin-left: auto;
     margin-right:auto;
-z-index: 1;
+    z-index: 3;
 }
 
 
@@ -395,6 +394,33 @@ background-color: #eee;
 
 
 
+input.inline-edit{
+  /* Eliminate borders and padding */
+  border: none;
+  padding: 0;
+  margin-left: 20px;
+
+  /* Inherit the parent element's typography */
+  font: inherit;
+  color: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  text-align: inherit;
+
+  /* Seems to help alignment in headers */
+  vertical-align: top;
+}
+input.inline-edit:hover,
+input.inline-edit:focus{
+  /* Change the background to a light yellow */
+  background-color: #EEE;
+
+  /* A subtle transition never hurts */
+  -webkit-transition: background-color 0.5s;
+     -moz-transition: background-color 0.5s;
+      -ie-transition: background-color 0.5s;
+          transition: background-color 0.5s;
+}
 
 
 
@@ -429,7 +455,7 @@ background-color: #eee;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 9998;
+  z-index: 8;
   background-color: #005a7e;
   opacity: 0;
   -webkit-transition: opacity 0.4s;
@@ -474,6 +500,8 @@ background-color: #eee;
   -webkit-transform: scale3d(1, 1, 1) translateY(0);
   -moz-transform: scale(1) translateY(0);
   transform: scale(1) translateY(0);
+
+  box-shadow: 10px 10px 5px 900px rgba(255,255,255,.7);
 }
 .us-modal-box header, .us-modal-box footer {
   position: relative;
@@ -552,7 +580,7 @@ background-color: #eee;
 
 .us-modal-xl {
   position:absolute;
-  bottom:0;
+  top: 10%;
   width: 960px;
   margin-left: -480px;
   
@@ -626,6 +654,12 @@ background-color: #eee;
   font-size: 14px;
   line-height: 20px;
 }
+
+.us-modal-content a {
+line-height: 30px;
+font-size: 14px;
+
+}
 .us-modal-footer footer {
   display: block;
 }
@@ -672,6 +706,12 @@ display:none;
 
 }
 
+
+.bg{
+  width: 100% !important;
+  margin-left: 0 !important;
+  left:0 !important;
+}
 
 .footer2{
   display: inline-block;
