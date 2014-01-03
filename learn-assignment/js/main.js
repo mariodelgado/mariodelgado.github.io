@@ -1,3 +1,31 @@
+
+$(function () {
+   
+    $("#textarea").on("keyup", function (e) {
+       
+       if ($(this).attr('rows') <2)
+       {
+           if (
+               parseInt($(this).val().length/$(this).attr('cols'))+
+               ($(this).val().split("\n").length-1) 
+               
+               >= 
+               
+               $(this).attr('rows')
+              )
+               $(this).attr("rows", parseInt($(this).attr("rows"))+1);
+           
+           if (e.keyCode == 13)
+           {
+               $(this).attr("rows", parseInt($(this).attr("rows"))+1);
+           }
+       } 
+       
+    });
+    
+});
+
+
 /* uswitch modals v0.5 - https://github.com/uswitch/ustyle-modals */
 
 var uSwitch = uSwitch || {};
