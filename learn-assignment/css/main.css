@@ -510,6 +510,7 @@ background-color: #F0F0F0;
 }
 
 .head .vis{
+  color: #aaa;
   display: inline;
   font-size: 15px;
 float: right;
@@ -525,6 +526,10 @@ content: url("../on.png");
    vertical-align: middle;
 
 
+}
+
+.head.vis1{
+  display: none;
 }
 
 
@@ -606,7 +611,8 @@ vertical-align: middle;
 
 
 .add1{
-
+width:80%;
+margin-left: 10%;
   text-align: center;
   margin-top: -15px;
   margin-bottom: 40px;
@@ -616,7 +622,7 @@ vertical-align: middle;
 .add1:hover{
 width:80%;
 margin-left: 10%;
-background-color: #eee;
+background-color: #fff;
 }
 
 
@@ -1107,6 +1113,10 @@ bottom: 45px;
 margin-left: auto;
 margin-right: auto;
 width: 100%;
+font-size: 16px;
+line-height: 55px;
+padding-left: 0px;
+
 height: 55px;
 background-color: white;
 z-index: 2;
@@ -1116,6 +1126,22 @@ box-shadow: 0 0 0 1px #eee inset;
 
 .head .vis{
   margin-right: 0px;
+  display: none;
+}
+
+.head .vis1 {
+content: url("../on.png");
+  color: #aaa;
+
+  font-size: 15px;
+float: right;
+margin-top: 0.17em;
+padding-top: 18px;
+margin-right: 15px;
+   display: inline-block;
+   vertical-align: middle;
+
+
 }
 
   .box{
