@@ -28,15 +28,36 @@ html {
     text-shadow: none;
 }
 
+.system-nav{
+  font-size: 13px;
+  text-decoration: none !important;
+}
+
+
+
+.system-nav .current-tab{
+  font-size: 14px;
+  color: #aaa;
+  text-decoration: none !important;
+}
+
+
+.system-nav .current-tab:hover{
+  font-size: 14px;
+  text-decoration: underline; !important;
+}
+
 /*
  * A better looking default horizontal rule
  */
+
+
 
 hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #ddd;
     margin: 1em 0;
     padding: 0;
 }
@@ -404,14 +425,28 @@ form p {
 input[type=text],
 input[type=email],
 input[type=url],
-input[type=password],
+input[type=password] {
+  width: 81.5%;
+  line-height: 1.5em;
+  font-family: inherit;
+  border: 1px solid #eee;
+  color: #121212;
+  background: #F0F0F0;
+
+  overflow: auto;
+  resize: none;
+  padding-top: 0.75em;
+  padding-left: 15px;
+  padding-right: 5%;
+  padding-bottom: 0.75em;
+}
 textarea {
   width: 81.5%;
   line-height: 1.5em;
   font-family: inherit;
   border: 1px solid #eee;
   color: #121212;
-  background: #fffeff;
+  background: #Fffeff;
 
   overflow: auto;
   resize: none;
@@ -452,7 +487,7 @@ textarea:focus {
     width:960px;
     height: 80%;
     padding-bottom: 20%;
-    background-color: #fff;
+    background-color: #F0F0F0
     margin-left: auto;
     margin-right:auto;
     z-index: 3;
@@ -461,7 +496,7 @@ textarea:focus {
 
 .head{
 height:80px;
-background-color: white;
+background-color: #F0F0F0;
 
 }
 
@@ -485,7 +520,7 @@ margin-right: 15px;
 }
 
 .head .vis:after {
-content: url(http://kiwianon.com/forums/Themes/Simple_Green/images/on2.png);
+content: url("../on.png");
    display: inline-block;
    vertical-align: middle;
 
@@ -500,9 +535,9 @@ content: url(http://kiwianon.com/forums/Themes/Simple_Green/images/on2.png);
 margin: 0 auto;
   height: 55px;
   width:960px;
-  background-color: white;
+  background-color: #F0F0F0;
   z-index: 2;
-box-shadow: 0 0 0 1px #eee inset;
+box-shadow: 0 0 0 1px #ccc inset;
 }
 
 .footer .option{
@@ -764,7 +799,7 @@ input.inline-edit{
 input.inline-edit:hover,
 input.inline-edit:focus{
   /* Change the background to a light yellow */
-  background-color: #EEE;
+  background-color: #Fff;
 
   /* A subtle transition never hurts */
   -webkit-transition: background-color 0.5s;
@@ -994,6 +1029,7 @@ input.inline-edit:focus{
   max-height: 78vh;
   padding: 1.2em;
   color: #333333;
+  background-color: #fffeff;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -1067,7 +1103,7 @@ display:none;
 .footer2{
   display: inline-block;
 position: absolute;
-bottom: 0px;
+bottom: 45px;
 margin-left: auto;
 margin-right: auto;
 width: 100%;
@@ -1078,11 +1114,15 @@ box-shadow: 0 0 0 1px #eee inset;
 }
 
 
+.head .vis{
+  margin-right: 0px;
+}
+
   .box{
   position: relative;
     width:100%;
     min-height: 600px;
-    background-color: #fff;
+    background-color: #F0F0F0;
     margin-left: auto;
     margin-right:auto;
 z-index: 1;
