@@ -47,7 +47,9 @@ hr {
  */
 
 
-
+a {
+  color: #666;
+}
 
 
 
@@ -616,6 +618,103 @@ background-color: #eee;
 
 
 
+.button1 {  
+  float: right;
+margin-right: 10px;
+margin-top: 8px;
+  display: inline-block;
+font-family: inherit;
+text-decoration: none;
+color: #555555;
+padding: 0 12px;
+background: #e3e3e3;
+text-align: center;
+vertical-align: middle;
+border-radius: 2px;
+line-height: 32px;
+font-size: 13px;
+min-width: 90px;
+border: 2px solid transparent;
+white-space: nowrap;
+padding: 0 14px;
+font-size: 14px;
+line-height: 38px;
+min-width: 105px;
+}
+
+.button2 {
+  margin-top: 8px;
+  float: right;
+    display: inline-block;
+font-family: inherit;
+text-decoration: none;
+margin-right: 15px;
+padding: 0 12px;
+
+text-align: center;
+vertical-align: middle;
+border-radius: 2px;
+line-height: 32px;
+font-size: 13px;
+min-width: 90px;
+border: 2px solid transparent;
+white-space: nowrap;
+padding: 0 14px;
+font-size: 14px;
+line-height: 38px;
+min-width: 105px;
+color: #ddd;
+background: rgb(73, 73, 73);
+}
+
+.button3 {  
+  float: right;
+margin-right: 10px;
+margin-top: -5px;
+  display: inline-block;
+font-family: inherit;
+text-decoration: none;
+color: #555555;
+padding: 0 12px;
+background: #e3e3e3;
+text-align: center;
+vertical-align: middle;
+border-radius: 2px;
+line-height: 32px;
+font-size: 13px;
+min-width: 90px;
+border: 2px solid transparent;
+white-space: nowrap;
+padding: 0 14px;
+font-size: 14px;
+line-height: 38px;
+min-width: 105px;
+}
+
+.button4 {
+  margin-top: -5px;
+  float: right;
+    display: inline-block;
+font-family: inherit;
+text-decoration: none;
+margin-right: 15px;
+padding: 0 12px;
+
+text-align: center;
+vertical-align: middle;
+border-radius: 2px;
+line-height: 32px;
+font-size: 13px;
+min-width: 90px;
+border: 2px solid transparent;
+white-space: nowrap;
+padding: 0 14px;
+font-size: 14px;
+line-height: 38px;
+min-width: 105px;
+color: #ddd;
+background: rgb(73, 73, 73);
+}
 
 
 
@@ -1207,7 +1306,7 @@ html {
 body {
   min-height: 100%;
   color: #666;
-  background: #eee;
+  background: rgb(73, 73, 73);
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee)), color-stop(100%, #ddd);
   background-image: linear-gradient(top, #ddd, #eee;
   background-repeat: no-repeat;
