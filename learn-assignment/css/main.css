@@ -1108,8 +1108,8 @@ display:none;
 
 .footer2{
   display: inline-block;
-position: absolute;
-bottom: 45px;
+position: fixed;
+bottom:0px;
 margin-left: auto;
 margin-right: auto;
 width: 100%;
