@@ -16,6 +16,17 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
+<script>
+function show(target){
+document.getElementById(target).style.display = 'block';
+}
+function hide(target){
+document.getElementById(target).style.display = 'none';
+}
+ 
+ 
+</script>
+
 
     </head>
     <body>
@@ -185,13 +196,64 @@ z-index:1; width:960px; background-color:#F0F0F0;     left:50%; margin-left: -48
     <a href="#!" class="us-modal-close">X</a>
   </header>
   <div class="us-modal-content">
-<div class="box2"><b>Rule 1</b><div class="date" style="font-size:14px;"><b>Availability Starts:</b> 07/19/2013 8:00 AM EDT<br><b>Availability Ends:</b> 07/19/2013 8:00 AM EDT<br>&nbsp</div><div class="edit1">Remove</div>
+<div id="lastest" style="display:none;">
 
+     <div class="spoke-content columns" style="">
+        
+                    <div class="key-value-wrap">
+                <div class="label">Dates of Availability</div>
+                <div class="inputs">
+                    <label><input type="radio"> Start Date: </label><br>
+                    <label><input type="radio"> End Date: </label> 
+                </div>
+            </div><br>
+            
+            <div class="key-value-wrap">
+                <div class="label"> Membership<br><small> </small></div>
+                <div class="inputs">
+                    <label><input type="radio"> Restrict who can view this item</label><br>
+                    
+                </div>
+            </div><br>
+            
+
+            
+            <div class="form-group">
+            <div class="key-value-wrap">
+                <div class="label">Performance Criteria</div>
+                <div class="inputs">
+                  <label><input type="radio">  Restrict based on grades and performance criteria.</label><br>
+                 
+                    
+                </div>
+
+                            <div class="form-group">
+            <div class="key-value-wrap">
+                <div class="label">Reviewed Content</div>
+                <div class="inputs">
+                  <label><input type="radio"> Force the availability of content to depend on other content being loaded.</label><br>
+                 
+                    
+                </div>
+            </div><br>
+            
+         
+            
+            
+        </div>
+</div>
+</div>
+
+<div id="monitor_overlay" style="display:block">
+
+<div class="box2"><b>Rule 1</b><div class="date" style="font-size:14px;"><b>Availability Starts:</b> 07/19/2013 8:00 AM EDT<br><b>Availability Ends:</b> 07/19/2013 8:00 AM EDT<br>&nbsp</div><div class="edit1">Remove</div>
+</div>
 
 </div>
   <footer>
-    <p style="float:left;">  <a href="#prebuilt-modal5" class="us-modal button4" data-width="xl" >Add a Restriction</a>
 
+    <p style="float:left;">  <a href="#" class="button4" onclick="hide('monitor_overlay'); show('lastest')">Add a Restriction</a>
+    <p style="float:right;">  <a href="#" class="button3" onclick="show('monitor_overlay'); hide('lastest')">Cancel</a>
 </p>
 
 
@@ -267,6 +329,93 @@ z-index:1; width:960px; background-color:#F0F0F0;     left:50%; margin-left: -48
 
 
 
+<div id="lastest1" style="display:none;">
+    <div class="search-wrapper">
+  <form>
+  <input type="text" name="focus" required class="search-box" placeholder="Search" />
+
+     &nbsp&nbsp 15 Results
+  </form> 
+
+</div>
+<br>
+
+<div id="table">
+  <div class="header-row row">
+     <span class="cell"></span>
+    <span class="cell primary">Goal</span>
+    <span class="cell">Goal Set Name</span>
+     <span class="cell">ID</span>
+    <span class="cell">Category</span>
+     <span class="cell">Actions</span>
+  </div>
+  <div class="row">
+  <input type="radio" name="expand">
+    <span class="cell primary" >Students will demonstrate writen and oral proficiency.</span>
+    <span class="cell" >Biological Sciences</span>
+     <span class="cell" >BIOSCI001</span>
+     <span class="cell" >Learning Actions</span>
+     <span class="cell" >Delete / Edit </span>
+  </div>
+  <div class="row">
+  <input type="radio" name="expand">
+    <span class="cell primary" >Students will demonstrate writen and oral proficiency.</span>
+    <span class="cell" >Biological Sciences</span>
+     <span class="cell" >BIOSCI001</span>
+     <span class="cell" >Learning Actions</span>
+     <span class="cell" >Delete / Edit </span>
+  </div>
+  <div class="row">
+  <input type="radio" name="expand">
+    <span class="cell primary" >Students will demonstrate writen and oral proficiency.</span>
+    <span class="cell" >Biological Sciences</span>
+     <span class="cell" >BIOSCI001</span>
+     <span class="cell" >Learning Actions</span>
+     <span class="cell" >Delete / Edit </span>
+  </div>
+  <div class="row">
+  <input type="radio" name="expand">
+    <span class="cell primary" >Students will demonstrate writen and oral proficiency.</span>
+    <span class="cell" >Biological Sciences</span>
+     <span class="cell" >BIOSCI001</span>
+     <span class="cell" >Learning Actions</span>
+     <span class="cell" >Delete / Edit </span>
+  </div>
+  <div class="row">
+  <input type="radio" name="expand">
+    <span class="cell primary" >Students will demonstrate writen and oral proficiency.</span>
+    <span class="cell" >Biological Sciences</span>
+     <span class="cell" >BIOSCI001</span>
+     <span class="cell" >Learning Actions</span>
+     <span class="cell" >Delete / Edit </span>
+  </div>
+    <div class="row">
+  <input type="radio" name="expand">
+    <span class="cell primary" >Students will demonstrate writen and oral proficiency.</span>
+    <span class="cell" >Biological Sciences</span>
+     <span class="cell" >BIOSCI001</span>
+     <span class="cell" >Learning Actions</span>
+     <span class="cell" >Delete / Edit </span>
+  </div>
+
+    <div class="row">
+  <input type="radio" name="expand">
+    <span class="cell primary" >Students will demonstrate writen and oral proficiency.</span>
+    <span class="cell" >Biological Sciences</span>
+     <span class="cell" >BIOSCI001</span>
+     <span class="cell" >Learning Actions</span>
+     <span class="cell" >Delete / Edit </span>
+  </div>
+
+</div>
+
+
+</div>
+
+
+
+<div id="monitor_overlay1" style="display:block;">
+
 <div id="table">
   <div class="header-row row">
     <span class="cell primary"><b>Goal</b></span>
@@ -314,10 +463,10 @@ z-index:1; width:960px; background-color:#F0F0F0;     left:50%; margin-left: -48
 </div>
 
 </div>
+</div>
   <footer>
-      <p style="float:left; margin-top:-0px;">  <a href="#prebuilt-modal4" class="us-modal button4" data-width="xl" >Add a Goal</a></p>
-
- <a href="#" class="button3">Back</a>
+    <p style="float:left;">  <a href="#" class="button4" onclick="hide('monitor_overlay1'); show('lastest1')">Add a Goal</a>
+    <p style="float:right;">  <a href="#" class="button3" onclick="show('monitor_overlay1'); hide('lastest1')">Cancel</a>
   </footer>
 </section>
 
@@ -332,6 +481,8 @@ z-index:1; width:960px; background-color:#F0F0F0;     left:50%; margin-left: -48
     <h2 class="us-modal-title">Add Goal(s)</h2>
     <a href="#!" class="us-modal-close">X</a>
   </header>
+
+
   <div class="us-modal-content">
 
 <div class="search-wrapper">
