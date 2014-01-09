@@ -1,5 +1,161 @@
 @import url('http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
 
+  
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font-family: 'Helvetica Neue' !important;
+  font-weight: 300;
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 45px;
+  color: $blue;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+section {
+  margin-top: 30px;
+  
+  p {
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+}
+
+button {
+  @include experimental('appearance', 
+    none, 
+    webkit, moz, o, ms, not khtml);
+  @include border-radius(5px);
+  border: none;
+  outline:none;
+  font: inherit;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  background: $white;
+  color: $blue;
+  font-weight: 300;
+  font-size: 16px;
+  @include border-radius(0px);
+  
+  &:hover {
+    text-decoration: underline;
+  }
+
+/*  &:last-child {
+    border-color: red;
+    margin-bottom: 0;
+  }*/
+  
+  &.button-border {
+    
+    @include border-radius(5px);
+    padding: 10px 12px 8px 12px;
+    border: 1px solid $blue; 
+  
+    &:hover {
+      background: $blue;
+      color: $white;
+      text-decoration: none;
+    }
+    
+  }
+
+  &.button-success {
+    color: $green;
+    border-color: $green;
+    &:hover {
+      background: $green;
+    }
+  }
+
+  &.button-error {
+    color: $red;
+    border-color: $red;
+    &:hover {
+      background: $red;
+    }
+  }
+  
+}
+
+.modal {
+   
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: auto;
+  margin-left: -200px;
+  margin-top: -150px;
+  background-color: $white;
+  padding: 25px;
+  border-radius: 5px;
+  z-index: 10;
+  box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
+  
+  &.active {
+    display: block;
+  }
+  
+  header {
+    position: relative;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .close {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    margin: 0;
+  }
+
+
+}
+
+.pull-right {
+  float: right;  
+}
+
+.icon {
+  display: inline-block;
+  font-size: inherit;
+  font-family: 'ios7-icon';
+  margin-right: 5px;
+  color: inherit;
+  -webkit-text-rendering: geometricPrecision;
+  -moz-text-rendering: geometricPrecision;
+  -ms-text-rendering: geometricPrecision;
+  -o-text-rendering: geometricPrecision;
+  text-rendering: geometricPrecision;
+}
+
+
+
+
+
 html,
 input,
 select,
@@ -99,6 +255,57 @@ fieldset {
 textarea {
     resize: vertical;
 }
+
+
+#modal h5{
+  background:#0098DA;
+  color:#fff;
+  padding:10px;
+ margin-top:0px;
+  border-radius:3px;
+  font-family:"Lucida sans unicode";
+}
+#modal{
+  display:none;
+  position:absolute;
+  background-color:#F5F5F6;
+  top:-400px;
+  left:50%;
+  z-index:101;
+  box-shadow:0 0 10px 1px rgba(87, 87, 87, 0.4);
+  border-radius:3px;
+  width:400px;
+  height:200px;
+  margin-left:-200px;
+}
+.modal-bg{
+  display:none;
+  cursor:pointer;
+  position:fixed;
+ left:0;right:0;
+ top:0;bottom:0;
+  z-index:100;
+  background-color:rgba(44, 51, 53, 0.5);
+}
+
+.close{
+  float:right;
+  text-decoration:none;
+  font-family:'arial';
+  font-size:22px;
+  margin: 3px 8px 0 0;
+}
+
+p{
+  padding:20px;
+  font-family:'Open Sans';
+    color:#505050;
+}
+
+
+
+
+
 
 /* ==========================================================================
    Browse Happy prompt

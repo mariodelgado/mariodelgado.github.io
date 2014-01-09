@@ -1,31 +1,4 @@
 
-$(function () {
-   
-    $("#textarea").on("keyup", function (e) {
-       
-       if ($(this).attr('rows') <2)
-       {
-           if (
-               parseInt($(this).val().length/$(this).attr('cols'))+
-               ($(this).val().split("\n").length-1) 
-               
-               >= 
-               
-               $(this).attr('rows')
-              )
-               $(this).attr("rows", parseInt($(this).attr("rows"))+1);
-           
-           if (e.keyCode == 13)
-           {
-               $(this).attr("rows", parseInt($(this).attr("rows"))+1);
-           }
-       } 
-       
-    });
-    
-});
-
-
 /* uswitch modals v0.5 - https://github.com/uswitch/ustyle-modals */
 
 var uSwitch = uSwitch || {};
@@ -396,32 +369,3 @@ uSwitch.modal.init(true);
 
 
 
-
-// JUST FOR THIS DEMO
-  $('#js-example1').click(function(){
-    uSwitch.modal.openModal(false,{
-      'type':'ajax',
-      'target':'/pixelthing/pen/uHGEg.html',
-      'width':'xl',
-      'title':'JS triggered',
-      'modalclass':'green-footer',
-      'closedirection':'right',
-      'formhtml':'<h3>Don\'t delay...</h3>',
-      'formurl':'#',
-      'forminputs':{
-          'HIDDEN-INPUT-1':{
-            'type':'hidden',
-            'value':'hidden!!'
-          },
-          'HIDDEN-INPUT-2':{
-            'type':'hidden',
-            'value':'also hidden!!'
-          }
-        },
-      'formbutton': {
-        'class':'btn_green btn_arrowed',
-        'text':'click now!'
-      },
-      'formhtml':'<h3>Don\'t delay...</h3>'
-    });
-  })
