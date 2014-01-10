@@ -11,23 +11,26 @@
   left: -9999px;
 }
 .tabs label {
-  display: block;
-  padding: 14px 21px;
-  border-radius: 2px 2px 0 0;
-  font-size: 20px;
-  font-weight: normal;
-  text-transform: underline;
-  background: #ddd;
-  cursor: pointer;
-  position: relative;
-  top: 4px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+display: block;
+
+width: 165px;
+border-radius: 2px 2px 0 0;
+font-size: 20px;
+font-weight: normal;
+text-transform: underline;
+background: #ddd;
+cursor: pointer;
+position: fixed;
+z-index: 100001;
+bottom: 4px;
+right: 100px;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
 }
 .tabs label:hover {
-  background: #703688;
+  background: #666;
 }
 .tabs .tab-content {
   z-index: 2;
@@ -43,9 +46,10 @@
   background: #fff;
 }
 .tabs [id^="tab"]:checked + label {
-  top: 0;
-  padding-top: 17px;
-  background: #612e76;
+bottom: 0;
+z-index: 100000;
+padding-top: 17px;
+background: #ddd;
 }
 .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
   display: block;
