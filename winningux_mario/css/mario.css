@@ -1185,8 +1185,8 @@ height: 100%;
 
 /* footer */
 .us-modal-footer .us-modal-content {
-  max-height: 350px;
-  max-height: 62vh;
+  
+  
   font-size: 14px;
   line-height: 20px;
 }

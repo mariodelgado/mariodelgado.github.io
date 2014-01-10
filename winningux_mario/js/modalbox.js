@@ -24,7 +24,7 @@ Modalbox.Methods = {
 		title: "ModalBox Window", // Title of the ModalBox window
 		overlayClose: true, // Close modal box by clicking on overlay
 		width: '100%', // Default width in px
-		height: 90, // Default height in px
+		height: '90%', // Default height in px
 		overlayOpacity: 0.65, // Default overlay opacity
 		overlayDuration: 0.25, // Default overlay fade in/out duration in seconds
 		slideDownDuration: 0.5, // Default Modalbox appear slide down effect in seconds
