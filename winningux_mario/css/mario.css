@@ -20,7 +20,7 @@ font-size: 20px;
 font-weight: normal;
 text-transform: underline;
 background: #666;
-color: #eee
+color: #eee;
 cursor: pointer;
 position: fixed;
 z-index: 100001;
@@ -574,7 +574,7 @@ p{
   padding-top: 10px;
   min-height:70px;
   background-color:#fffeff;
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
   z-index: 2;
 }
 
@@ -1012,7 +1012,7 @@ input.inline-edit{
   /* Eliminate borders and padding */
   border: none;
   padding: 0;
-  margin-left: 20px;
+  margin-left: 40px;
 
   /* Inherit the parent element's typography */
   font: inherit;
