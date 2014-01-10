@@ -1059,10 +1059,10 @@ height: 100%;
 .us-modal-box footer {
   display: none;
   position: absolute;
-  bottom: -62px;
+  bottom: 0;
   left: 0;
   right: 0;
-  height: 34px;
+  height: 54px;
   padding: 14px 16px;
   color: #333333;
   background-color: #eeeeee;
