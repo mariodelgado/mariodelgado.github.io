@@ -873,6 +873,13 @@ background-color: #fff;
   margin-right: 12px;
   color: #666666; }
 
+    .label1 {
+  width: 160px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 12px;
+  color: #666666; }
+
   .inputs {
   display: inline-block;
   vertical-align: top;
@@ -1338,6 +1345,11 @@ input.inline-edit {
 }
 
 
+.box2 .date{
+  font-size: 16px;
+}
+
+
   .v15 .sticky .new-local-nav {
     margin-top: 0px !important;
     padding: 0 0 !important; }
@@ -1794,7 +1806,8 @@ pre{
   cursor:pointer;
 }
 input[type=checkbox]{
-  display:none;
+  display:inline;
+  z-index:0;
   outline:none;
 }
 input[type=checkbox]:checked + label{
