@@ -29,7 +29,7 @@ Modalbox.Methods = {
 		overlayDuration: 0.25, // Default overlay fade in/out duration in seconds
 		slideDownDuration: 0.5, // Default Modalbox appear slide down effect in seconds
 		slideUpDuration: 0.5, // Default Modalbox hiding slide up effect in seconds
-		resizeDuration: 0.25, // Default resize duration seconds
+		resizeDuration: 0, // Default resize duration seconds
 		inactiveFade: true, // Fades MB window on inactive state
 		transitions: true, // Toggles transition effects. Transitions are enabled by default
 		loadingString: "Please wait. Loading...", // Default loading string message
