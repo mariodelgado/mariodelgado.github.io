@@ -2,7 +2,7 @@
 
 
 .tabs li {
-  float: right;
+  float: left;
   display: block;
 }
 .tabs input[type="radio"] {
