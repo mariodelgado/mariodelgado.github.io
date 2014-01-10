@@ -12,7 +12,8 @@
 }
 .tabs label {
 display: block;
-
+text-align: center !important;
+padding-left: 0px;
 width: 165px;
 border-radius: 2px 2px 0 0;
 font-size: 20px;
@@ -49,7 +50,7 @@ transition: all 0.2s ease-in-out;
 bottom: 0;
 z-index: 100000;
 padding-top: 17px;
-background: #ddd;
+background: #666;
 }
 .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
   display: block;
