@@ -57,9 +57,11 @@
 }
 
 #MB_content {
-	position: relative;
-	padding: 6px .75em;
-	overflow: auto;
+position: relative;
+padding: 6px .75em;
+overflow: auto;
+min-height: 400px !important;
+}
 }
 
 #MB_caption {
