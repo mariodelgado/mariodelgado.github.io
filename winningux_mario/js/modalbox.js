@@ -57,7 +57,7 @@ Modalbox.Methods = {
 
 		// Creating the modal window
 		this.MBwindowwrapper = new Element("div", {id: "MB_windowwrapper"}).update(
-			this.MBwindow = new Element("div", {id: "MB_window", style: "display: none"}).update(
+			this.MBwindow = new Element("div", {id: "MB_window", style:"display: none"}).update(
 				this.MBframe = new Element("div", {id: "MB_frame"}).update(
 					this.MBheader = new Element("div", {id: "MB_header"}).update(
 						this.MBcaption = new Element("div", {id: "MB_caption"})
