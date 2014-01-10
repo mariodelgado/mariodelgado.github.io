@@ -23,7 +23,7 @@
 
 #MB_windowwrapper {
 	position:absolute;
-	top:0;
+	top:20%;
 	width:100%;
 }
 
@@ -31,13 +31,16 @@
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
-	top:0;
+	top:20%;
 	left:0;
 	border: 0 solid;
 	text-align: left;
 	z-index: 10000;
 }
-#MB_window[id] { position: relative; }
+#MB_window[id] { 
+	position: relative;
+	width:92%;
+	 }
 
 #MB_frame {
 	position: relative;

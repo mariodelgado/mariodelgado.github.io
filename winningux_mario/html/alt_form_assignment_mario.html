@@ -972,14 +972,20 @@ Drag files here. &nbsp Or select files from your computer, Content Collection, o
 
         	<div><div style="float:left; margin-top:10px;">
 
+<a href="modal1.html" title="Options" class="footer2" onclick="
+Modalbox.show(this.href, {title: this.title, width: '90%'}); return false;
+"> Options</a>
 
-<a href="modal1.html" title="Simple form" onclick="
-Modalbox.show(this.href, {title: this.title, width: 600}); return false;
-"> Send link to a friend</a>
-
-<a href="#prebuilt-modal" class="us-modal" data-width="xl">Options</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-  <a href="#prebuilt-modal2" class="us-modal" data-width="xl">Restrictions (1)</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-  <a href="#prebuilt-modal3" class="us-modal" data-width="xl">Goals (5)</a></div>
+<a href="modal1.html" title="Options" onclick="
+Modalbox.show(this.href, {title: this.title, width: '90%'}); return false;
+"> Options</a>
+<a href="modal2.html" title="Restrictions" onclick="
+Modalbox.show(this.href, {title: this.title, width: '90%'}); return false;
+">Restrictions (1)</a>
+<a href="modal3.html" title="Goals" onclick="
+Modalbox.show(this.href, {title: this.title, width: '90%'}); return false;
+"> Goals (5)</a>
+</div>
         		<a href="course_content.html?session=editmode" class="button button-large">Cancel</a>
 	        <input type="submit" value="Save" class="button button-large button-inverse" onclick="document.location='course_content.html?session=editmode'"></div>
         </div>
