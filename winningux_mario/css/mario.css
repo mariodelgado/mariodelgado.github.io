@@ -1596,7 +1596,7 @@ body {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee)), color-stop(100%, #ddd);
   background-image: linear-gradient(top, #ddd, #eee);
   background-repeat: no-repeat;
-  font-family: avenir, sans-serif;
+  font-family:  sans-serif;
   font-size: 14px;
 }
 
