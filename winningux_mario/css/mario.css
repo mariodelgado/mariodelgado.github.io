@@ -1008,7 +1008,7 @@ input.inline-edit:focus{
 
 /* modal box */
 .us-modal-box {
-    position: absolute;
+
 
   z-index: 9999;
   width: 100%;
