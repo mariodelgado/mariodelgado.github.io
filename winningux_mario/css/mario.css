@@ -19,7 +19,7 @@ border-radius: 2px 2px 0 0;
 font-size: 14px;
 font-weight: normal;
 text-transform: underline;
-background: #666;
+background: #333;
 color: #eee;
 cursor: pointer;
 position: fixed;
@@ -40,7 +40,7 @@ transition: all 0.2s ease-in-out;
   display: none;
   overflow: hidden;
   width: 100%;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 25px;
   padding: 25px;
   position: absolute;
@@ -765,6 +765,12 @@ margin: 0 auto;
 box-shadow: 0 0 0 1px #ccc inset;
 }
 
+.footer1{
+  display: relative;
+text-align: left;
+}
+
+
 .footer .option{
 vertical-align: middle;
   display: inline-block;
@@ -1319,6 +1325,22 @@ display:none;
 
 }
 
+.footer1{
+  display: none;
+}
+
+.branding{
+  padding-top:50px;
+}
+
+input.inline-edit {
+  margin-left:0px;
+}
+
+
+  .v15 .sticky .new-local-nav {
+    margin-top: 0px !important;
+    padding: 0 0 !important; }
 
 .bg{
   width: 100% !important;
@@ -1328,19 +1350,15 @@ display:none;
 
 .footer2{
   display: inline-block;
-position: fixed;
+  text-align: left;
 bottom:0px;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
 font-size: 16px;
-line-height: 55px;
+line-height: 25px;
 padding-left: 0px;
 
 height: 55px;
 background-color: white;
 z-index: 2;
-box-shadow: 0 0 0 1px #eee inset;
 }
 
 
