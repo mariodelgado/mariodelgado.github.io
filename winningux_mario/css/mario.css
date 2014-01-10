@@ -32,7 +32,7 @@ right: 100px;
 transition: all 0.2s ease-in-out;
 }
 .tabs label:hover {
-  background: #666;
+  background: #333;
   color: #eee;
 }
 .tabs .tab-content {
@@ -52,7 +52,8 @@ transition: all 0.2s ease-in-out;
 bottom: 0;
 z-index: 100000;
 padding-top: 17px;
-background: #666;
+padding-bottom: 2px;
+background: #333;
 }
 .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
   display: block;

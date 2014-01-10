@@ -94,7 +94,7 @@ min-height: 400px !important;
 /* Color scheme */
 #MB_window {
 	background-color: #fff;
-	color: #000;
+	color: #fff ;
 	
 	-webkit-box-shadow: 0 0 64px #000; 
 	-moz-box-shadow: #000 0 0 64px; 
