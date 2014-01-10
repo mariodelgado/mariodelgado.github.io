@@ -47,7 +47,7 @@
 
 #MB_frame {
 	position: relative;
-	background-color: #EFEFEF;
+	background-color: #FFF;
 	height: 100%;
 }
 
@@ -65,7 +65,7 @@
 #MB_caption {
 	font: bold 100% "Lucida Grande", Arial, sans-serif;
 	text-shadow: #FFF 0 1px 0;
-	padding: .5em 2em .5em .75em;
+	padding: 1em 2em 1em .75em;
 	margin: 0;
 	text-align: left;
 }
@@ -74,10 +74,10 @@
 	display: block;
 	position: absolute;
 	right: 5px; top: 4px;
-	padding: 2px 3px;
+	padding: 8px 3px;
 	font-weight: bold;
 	text-decoration: none;
-	font-size: 13px;
+	font-size: 16px;
 }
 #MB_close:hover {
 	background: transparent;
@@ -91,7 +91,7 @@
 
 /* Color scheme */
 #MB_window {
-	background-color: #EFEFEF;
+	background-color: #fff;
 	color: #000;
 	
 	-webkit-box-shadow: 0 0 64px #000; 
@@ -111,11 +111,11 @@
 		border-bottom-right-radius: 4px;
 	}
 	
-	#MB_content { border-top: 1px solid #F9F9F9; }
+	#MB_content { border-top: 1px solid #fff; }
 
 	#MB_header {
-	  background-color: #DDD;
-	  border-bottom: 1px solid #CCC;
+	  background-color: #eee;
+	  border-bottom: 1px solid #ddd;
 	}
 		#MB_caption { color: #000 }
 		#MB_close { color: #777 }
