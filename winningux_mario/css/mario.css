@@ -24,7 +24,7 @@ color: #eee;
 cursor: pointer;
 position: fixed;
 z-index: 100001;
-bottom: 4px;
+bottom: 12px;
 right: 100px;
 -webkit-transition: all 0.2s ease-in-out;
 -moz-transition: all 0.2s ease-in-out;
