@@ -1059,7 +1059,7 @@ height: 100%;
 .us-modal-box footer {
   display: none;
   position: absolute;
-  bottom: 0;
+  bottom: -20px;
   left: 0;
   right: 0;
   height: 54px;
