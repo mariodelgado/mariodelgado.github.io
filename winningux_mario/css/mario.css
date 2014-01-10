@@ -2,7 +2,7 @@
 
 
 .tabs li {
-  float: left;
+  float: right;
   display: block;
 }
 .tabs input[type="radio"] {
@@ -16,8 +16,8 @@
   border-radius: 2px 2px 0 0;
   font-size: 20px;
   font-weight: normal;
-  text-transform: uppercase;
-  background: #8e44ad;
+  text-transform: underline;
+  background: #ddd;
   cursor: pointer;
   position: relative;
   top: 4px;
@@ -40,7 +40,7 @@
   position: absolute;
   top: 53px;
   left: 0;
-  background: #612e76;
+  background: #fff;
 }
 .tabs [id^="tab"]:checked + label {
   top: 0;
