@@ -13,6 +13,9 @@
         <link href="../css/theme.css" media="screen, projection" rel="stylesheet" type="text/css" />
                         <link href="../css/mario.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
+                        <link rel="stylesheet" href="../css/modalbox.css" type="text/css"
+media="screen" />
+
         <link href="../css/top_nav_3.css" media="screen, projection" rel="stylesheet" type="text/css" />
 <!--         <link href="../css/top_nav_2.css" media="screen, projection" rel="stylesheet" type="text/css" /> -->
          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -26,6 +29,9 @@
         
         <script type="text/javascript" src="../js/prototype1.7.1.js"></script>
         <script type="text/javascript" src="../js/scriptaculous.js"></script>
+
+
+<script type="text/javascript" src="../js/modalbox.js"></script>
 
         <script type="text/javascript" src="../js/scripts-ck.js"></script>
         <script type="text/javascript" src="../js/scripts_2-ck.js"></script>
@@ -967,7 +973,9 @@ Drag files here. &nbsp Or select files from your computer, Content Collection, o
         	<div><div style="float:left; margin-top:10px;">
 
 
-
+<a href="modal1.html" title="Simple form" onclick="
+Modalbox.show(this.href, {title: this.title, width: 600}); return false;
+"> Send link to a friend</a>
 
 <a href="#prebuilt-modal" class="us-modal" data-width="xl">Options</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
   <a href="#prebuilt-modal2" class="us-modal" data-width="xl">Restrictions (1)</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -1132,89 +1140,6 @@ Drag files here. &nbsp Or select files from your computer, Content Collection, o
 
 
 
-<!-- Modal 1  Options-->
-<section id="prebuilt-modal" class="us-modal-box us-modal-footer" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true" style="display:none;">
-  <header>
-    <h2 class="us-modal-title">Options</h2>
-    <a href="#!" class="us-modal-close">X</a>
-  </header>
-  <div class="us-modal-content">
-   <div class="spoke-content columns" style="">
-        
-
-            
-            <div class="key-value-wrap">
-                <div class="label"><input type="checkbox">  Multiple Attempts</div>
-                <div class="inputs">
-                    <label><input type="radio"> Allow Unlimited Attempts</label><br>
-                    <label><input type="radio"> Number of Attempts</label> <input type="text" disabled="" size="3">
-                </div>
-            </div><br>
-            
-            <div class="key-value-wrap">
-                <div class="label">Recipients</div>
-                <div class="inputs">
-                    <label><input type="radio"> All Students individually</label><br>
-                    <label><input type="radio"> Groups of Students</label> 
-                </div>
-            </div><br>
-            
-            <div class="form-group">
-            <div class="key-value-wrap">
-                <div class="label">Primary Display</div>
-                <div class="inputs">
-                    <select>
-                        <option>Score</option>
-                    </select>
-                </div>
-            </div><br>
-            
-            <div class="key-value-wrap">
-                <div class="label">Secondary Display</div>
-                <div class="inputs">
-                    <select>
-                        <option>None</option>
-                    </select>
-                </div>
-            </div>
-            </div><br>
-
-            
-            <div class="key-value-wrap">
-                <div class="label">Score attempts using</div>
-                <div class="inputs">
-                    <select>
-                        <option>Last Graded Attempt</option>
-                    </select>
-                </div>
-            </div><br>
-            
-            <div class="key-value-wrap">
-                <div class="label">Category</div>
-                <div class="inputs">
-                    <select>
-                        <option>Test</option>
-                    </select>
-                </div>
-            </div><br>
-            
-            <div class="key-value-wrap">
-                <div class="label">Points Possible</div>
-                <div class="inputs">
-                    <input type="text" disabled="" size="3" value="70">
-                </div>
-            </div><br>
-
-            
-            
-        </div>
-
-  </div>
-  <footer>
-<a href="#" class="button4">Done</a>
- <a href="#" class="button3">Cancel</a>
-  </footer>
-</section>
 
 
 
@@ -1498,6 +1423,7 @@ Drag files here. &nbsp Or select files from your computer, Content Collection, o
     <p style="float:right;">  <a href="#" class="button3" onclick="show('monitor_overlay1'); hide('lastest1')">Cancel</a>
   </footer>
 </section> 
+
 
 
 
