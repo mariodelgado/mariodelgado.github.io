@@ -120,7 +120,7 @@ min-height: 450px !important;
 	  background-color: #9f2929;
 	  border-bottom: 1px solid #ddd;
 	}
-		#MB_caption { color: #fff; font-size:18px !important;}
+		#MB_caption { color: #eee; font-size:18px !important;}
 		#MB_close { color: #eee }
 		#MB_close:hover { color: #aaa }
 
