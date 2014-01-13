@@ -6,7 +6,7 @@ select{
 
 
 .done1{
-  position:fixed; right:50px;0px;bottom:6px;line-height:42px;z-index:1000000;
+  margin-right:-90% bottom:6px;line-height:42px;z-index:1000000;
 }
 
 .cancel1{position:relative ;bottom:6px;line-height:42px;z-index:1000000}
@@ -33,11 +33,11 @@ text-transform: underline;
 background: #bbb;
 color: #666;
 cursor: pointer;
-position: fixed;
+position: absolute;
 z-index: 100001;
 bottom: 12px;
 margin-bottom: 6px;
-right: 200px;
+right: 15%;
 -webkit-transition: all 0.2s ease-in-out;
 -moz-transition: all 0.2s ease-in-out;
 -o-transition: all 0.2s ease-in-out;
@@ -996,6 +996,7 @@ min-width: 105px;
 .button4 {
   margin-top: -5px;
   float: right;
+  position: absolute;
     display: inline-block;
 font-family: inherit;
 text-decoration: none;
@@ -1327,7 +1328,35 @@ font-size: 14px;
 
 @media screen and (max-width: 1340px){
 input.inline-edit{
-  margin-left: 4%;
+  margin-left: 4;}
+
+  .done1{
+  position:fixed; right:15%;bottom:6px;line-height:42px;z-index:1000000;
+}
+.tabs label {
+display: block;
+text-align: center !important;
+padding-left: 0px;
+width: 165px;
+border-radius: 2px 2px 0 0;
+font-size: 14px;
+font-weight: normal;
+text-transform: underline;
+background: #bbb;
+color: #666;
+cursor: pointer;
+position: fixed;
+z-index: 100001;
+bottom: 12px;
+margin-bottom: 6px;
+right: 200px;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+
+
 }
 
 }
