@@ -1809,7 +1809,8 @@ pre{
 input[type=checkbox]{
   display:inline;
   margin-top: 5px;
-margin-left:20px;
+margin-left:18px;
+margin-right: 8px;
   z-index:0;
   outline:none;
 }
