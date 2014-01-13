@@ -30,7 +30,7 @@ border-radius: 2px 2px 0 0;
 font-size: 14px;
 font-weight: normal;
 text-transform: underline;
-background: #bbb;
+background: #ccc;
 color: #666;
 cursor: pointer;
 position: absolute;
@@ -1000,9 +1000,9 @@ min-width: 105px;
     display: inline-block;
 font-family: inherit;
 text-decoration: none;
-margin-right: 15px;
+margin-left: 88%;
 padding: 0 12px;
-
+bottom: 
 text-align: center;
 vertical-align: middle;
 border-radius: 2px;
@@ -1333,6 +1333,12 @@ input.inline-edit{
   .done1{
   position:fixed; right:15%;bottom:6px;line-height:42px;z-index:1000000;
 }
+
+.button4{
+position: fixed;
+margin-left: 80%;
+}
+
 .tabs label {
 display: block;
 text-align: center !important;
