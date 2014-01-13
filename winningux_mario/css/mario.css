@@ -758,7 +758,7 @@ content: url("../on.png");
 .footer{
   display: relative;
   position: fixed;
-  bottom: 0px;
+  bottom: -5px;
 margin: 0 auto;
   height: 55px;
   width:960px;
