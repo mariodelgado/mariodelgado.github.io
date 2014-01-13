@@ -748,7 +748,7 @@ margin-right: 15px;
 }
 
 .head .vis:after {
-content: url("../on.png");
+content: url("../images/on.png");
    display: inline-block;
    vertical-align: middle;
 

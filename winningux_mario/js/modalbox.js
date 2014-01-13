@@ -27,8 +27,8 @@ Modalbox.Methods = {
 		height: '90%', // Default height in px
 		overlayOpacity: 0.65, // Default overlay opacity
 		overlayDuration: 0.25, // Default overlay fade in/out duration in seconds
-		slideDownDuration: 0.5, // Default Modalbox appear slide down effect in seconds
-		slideUpDuration: 0.5, // Default Modalbox hiding slide up effect in seconds
+		slideDownDuration: 0, // Default Modalbox appear slide down effect in seconds
+		slideUpDuration: 0, // Default Modalbox hiding slide up effect in seconds
 		resizeDuration: 0, // Default resize duration seconds
 		inactiveFade: true, // Fades MB window on inactive state
 		transitions: true, // Toggles transition effects. Transitions are enabled by default

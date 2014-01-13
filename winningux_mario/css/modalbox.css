@@ -43,6 +43,7 @@
 	bottom: 0;
 	height: 80% !important;
 	width:92%;
+	max-width: 1320px;
 	 }
 
 #MB_frame {
