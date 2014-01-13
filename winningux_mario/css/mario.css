@@ -1329,14 +1329,21 @@ font-size: 14px;
 @media screen and (max-width: 1440px){
 
 label{
-  right:10%;
+  right:15%;
 }
 }
 
-@media screen and (max-width: 1640px){
+@media screen and (max-width: 1600px){
 
 label{
-  right:15%;
+  right:20%;
+}
+}
+
+@media screen and (max-width: 2600px){
+
+label{
+  right:25%;
 }
 }
 
@@ -1345,13 +1352,13 @@ input.inline-edit{
   margin-left: 4;}
 
   .done1{
-  position:fixed; bottom:6px !important;line-height:42px;z-index:1000000 min-width12px;
+  position:fixed; line-height:42px;z-index:1000000 min-width12px;
 }
 
 .button4{
 position: fixed;
 margin-left: 90%;
-min-width: 10px;
+min-width: 40px;
 }
 
 .tabs label {
@@ -1363,7 +1370,7 @@ border-radius: 2px 2px 0 0;
 font-size: 14px;
 font-weight: normal;
 text-transform: underline;
-background: #bbb;
+background: #ccc;
 color: #666;
 cursor: pointer;
 position: fixed;
