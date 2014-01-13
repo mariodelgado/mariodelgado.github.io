@@ -6,7 +6,7 @@ select{
 
 
 .done1{
-  position:fixed; right:300px;0px;bottom:6px;line-height:42px;z-index:1000000;
+  position:fixed; right:50px;0px;bottom:6px;line-height:42px;z-index:1000000;
 }
 
 .cancel1{position:relative ;bottom:6px;line-height:42px;z-index:1000000}
@@ -37,7 +37,7 @@ position: fixed;
 z-index: 100001;
 bottom: 12px;
 margin-bottom: 6px;
-right: 400px;
+right: 200px;
 -webkit-transition: all 0.2s ease-in-out;
 -moz-transition: all 0.2s ease-in-out;
 -o-transition: all 0.2s ease-in-out;
