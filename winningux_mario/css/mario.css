@@ -5,6 +5,12 @@ select{
 }
 
 
+.done1{
+  position:fixed; right:300px;0px;bottom:6px;line-height:42px;z-index:1000000;
+}
+
+.cancel1{position:fixed; right:570px;bottom:6px;line-height:42px;z-index:1000000}
+
 
 .tabs li {
   float: left;
@@ -772,6 +778,21 @@ margin: 0 auto;
 box-shadow: 0 0 0 1px #ccc inset;
 }
 
+.footer3{
+  display: relative;
+  position: fixed;
+  bottom: -5px;
+margin: 0 auto;
+  height: 55px;
+  width:100%;
+  max-width: 1320px;
+  background-color: #F0F0F0;
+  z-index: 2;
+box-shadow: 0 0 0 1px #ccc inset;
+}
+
+
+
 .footer1{
   display: relative;
 text-align: left;
@@ -1109,7 +1130,7 @@ input.inline-edit:focus{
   z-index: 9999;
   width: 150%;
 height: 65px;
-margin-left: -160px;
+margin-left: -260px;
   padding: 0;
   background: white;
 
