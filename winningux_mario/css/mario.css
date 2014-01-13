@@ -36,9 +36,8 @@ cursor: pointer;
 position: fixed;
 z-index: 100001;
 bottom: 12px;
-margin-left: 1100px;
+margin-left: 1000px;
 margin-bottom: 6px;
-right: 15%;
 -webkit-transition: all 0.2s ease-in-out;
 -moz-transition: all 0.2s ease-in-out;
 -o-transition: all 0.2s ease-in-out;
@@ -67,7 +66,7 @@ bottom: 0;
 z-index: 100000;
 padding-top: 13px;
 padding-bottom: 13px;
-background: #bbb;
+background: #ccc;
 }
 .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
   display: block;
@@ -1327,6 +1326,20 @@ font-size: 14px;
   margin: 40px auto 10px;
 }
 
+@media screen and (max-width: 1440px){
+
+label{
+  right:10%;
+}
+}
+
+@media screen and (max-width: 1640px){
+
+label{
+  right:15%;
+}
+}
+
 @media screen and (max-width: 1340px){
 input.inline-edit{
   margin-left: 4;}
@@ -1337,7 +1350,7 @@ input.inline-edit{
 
 .button4{
 position: fixed;
-margin-left: 80%;
+margin-left: 90%;
 min-width: 10px;
 }
 
@@ -1389,7 +1402,9 @@ transition: all 0.2s ease-in-out;
     bottom: 50px !important;
   }
 
+.button4{
 
+}
 
 }
 /* default responsive block */
@@ -1528,6 +1543,10 @@ z-index:9997;
 @media screen and (max-width: 700px) {
   .us-modal-on.us-modal-root-l .us-modal-overlay {
     display: none;
+  }
+  .tabs label {
+right:100px;
+
   }
 
   .us-modal-l {
