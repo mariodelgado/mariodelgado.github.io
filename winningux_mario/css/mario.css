@@ -1,5 +1,7 @@
 @import url('http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
-
+select{
+  margin-left: 18px;
+}
 
 .tabs li {
   float: left;
