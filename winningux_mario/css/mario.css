@@ -9,7 +9,7 @@ select{
   position:fixed; right:300px;0px;bottom:6px;line-height:42px;z-index:1000000;
 }
 
-.cancel1{position:fixed; right:570px;bottom:6px;line-height:42px;z-index:1000000}
+.cancel1{position:relative ;bottom:6px;line-height:42px;z-index:1000000}
 
 
 .tabs li {
@@ -1310,7 +1310,7 @@ margin-left: -260px;
 }
 
 .us-modal-content a {
-line-height: 30px;
+
 font-size: 14px;
 
 }
@@ -1415,7 +1415,7 @@ z-index: 2;
 }
 
 .head .vis1 {
-content: url("../on.png");
+content: url("../images/on.png");
   color: #aaa;
 
   font-size: 15px;
@@ -1568,6 +1568,16 @@ z-index:9997;
 }
 /* width - S 500px */
 @media screen and (max-width: 500px) {
+
+  .button-large{
+min-width: 25px;
+
+  }
+
+  #MB_content{
+min-height: 350px !important;
+
+  }
   .us-modal-on.us-modal-root-s .us-modal-overlay {
     display: none;
   }
