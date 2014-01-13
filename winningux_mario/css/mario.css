@@ -1325,6 +1325,13 @@ font-size: 14px;
   margin: 40px auto 10px;
 }
 
+@media screen and (max-width: 1340px){
+input.inline-edit{
+  margin-left: 4%;
+}
+
+}
+
 /* smaller headers/footers */
 @media screen and (max-height: 650px), screen and (max-width: 800px) {
   .us-modal-box header, .us-modal-xl header, .us-modal-l header, .us-modal-m header, .us-modal-s header, .us-modal-xs header {
