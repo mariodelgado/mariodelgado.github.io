@@ -10,8 +10,8 @@
             <div class="key-value-wrap">
                 <div class="label">  Multiple Attempts</div>
                 <div class="inputs">
-                    <label><input type="checkbox" style="margin-left: 0px;">  Allow Unlimited Attempts</label><br>
-                    <label><input type="checkbox" style="margin-left: 0px;">   Number of Attempts</label><input type="text" size="3" style="margin-left:60px;">
+                    <label><input type="checkbox"  id="chk1" value="1" onClick="showIPAddress4(this);">style="margin-left: 0px;">  Allow Unlimited Attempts</label><br>
+                    <div id="div5" style="display:none" ><label><input type="checkbox" style="margin-left: 0px;">   Number of Attempts</label><input type="text" size="3" style="margin-left:60px;">
                 </div>
             </div><br>
             
@@ -71,7 +71,7 @@
         </div>
 
   </div>
-<footer style="position:fixed;&nbsp;height:65px; width:92%; padding-top:20px; bottom:0; margin-left:-10px; box-shadow: 0 0 0 1px #ddd inset">
+<footer style="position:fixed;&nbsp;height:65px; width:92%; padding-top:20px; bottom:0; max-width: 1322px; margin-left:-10px; box-shadow: 0 0 0 1px #ddd inset">
   <a style="float:left; margin-left:20px" href="#">Save as Default Assignment Options</a>
 <a href="#" id="MB_close" title="Close window"class="button4" style="margin-top:10px;">Done</a>
  <a href="#" class="button3" style="margin-left:120px;">Cancel</a>
