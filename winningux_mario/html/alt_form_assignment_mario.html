@@ -38,7 +38,11 @@ media="screen" />
                 <script type="text/javascript" src="../js/enquire.js"></script>
         <script type="text/javascript" src="../js/responsive-ck.js"></script>
 
-
+<script>
+  function showIPAddress(chk) {
+      document.getElementById("div1").style.display = chk.checked ? "block" : "none";
+  }
+</script>
 
         
 <script type="text/javascript">
@@ -980,7 +984,7 @@ Modalbox.show(this.href, {title: this.title, width: '90%'}); return false;
 Modalbox.show(this.href, {title: this.title, width: '90%'}); return false;
 "> Goals (5)</a>
 </div>
-        		<a href="course_content.html?session=editmode" class="button button-large">Cancel</a>
+        			
 	        <input type="submit" value="Save" class="button button-large button-inverse" onclick="document.location='course_content.html?session=editmode'"></div>
         </div>
              
