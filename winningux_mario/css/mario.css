@@ -33,7 +33,7 @@ text-transform: underline;
 background: #ccc;
 color: #666;
 cursor: pointer;
-position: absolute;
+position: fixed;
 z-index: 100001;
 bottom: 12px;
 margin-left: 950px;
@@ -996,7 +996,7 @@ min-width: 105px;
 .button4 {
   margin-top: -5px;
   float: right;
-  position: absolute;
+  position: fixed;
     display: inline-block;
 font-family: inherit;
 text-decoration: none;
@@ -1326,24 +1326,14 @@ font-size: 14px;
   margin: 40px auto 10px;
 }
 
-@media screen and (max-width: 1440px){
 
-label{
-  right:15%;
-}
-}
 
-@media screen and (max-width: 1600px){
 
-label{
-  right:20%;
-}
-}
 
 @media screen and (max-width: 2600px){
 
 label{
-  right:25%;
+  right:225px;
 }
 }
 
