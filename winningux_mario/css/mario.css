@@ -1005,7 +1005,7 @@ min-width: 105px;
     display: inline-block;
 font-family: inherit;
 text-decoration: none;
-margin-left: 940px;
+margin-left: 1190px;
 padding: 0 12px;
 bottom:3px;
 text-align: center;
@@ -1376,7 +1376,7 @@ right:5%;
 
 .button4{
 position: fixed;
-right:5%;
+margin-left: 90%
 min-width: 50px;
 }
 
