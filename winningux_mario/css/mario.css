@@ -39,7 +39,7 @@ bottom: 6px;
 padding-top: 12px;
 height: 40px;
 margin-left: 950px;
-margin-bottom: 6px;
+margin-bottom: 4px;
 -webkit-transition: all 0.2s ease-in-out;
 -moz-transition: all 0.2s ease-in-out;
 -o-transition: all 0.2s ease-in-out;
@@ -1003,9 +1003,9 @@ min-width: 105px;
     display: inline-block;
 font-family: inherit;
 text-decoration: none;
-margin-left: 1170px;
+margin-left: 1190px;
 padding: 0 12px;
-
+bottom:3px;
 text-align: center;
 vertical-align: middle;
 border-radius: 2px;
@@ -1022,6 +1022,31 @@ color: #ddd;
 background: rgb(73, 73, 73);
 }
 
+.button5 {
+  margin-top: -5px;
+  float: right;
+  position: fixed;
+    display: inline-block;
+font-family: inherit;
+text-decoration: none;
+margin-left: 1190px;
+padding: 0 12px;
+bottom:3px;
+text-align: center;
+vertical-align: middle;
+border-radius: 2px;
+line-height: 32px;
+font-size: 13px;
+min-width: 90px;
+border: 2px solid transparent;
+white-space: nowrap;
+padding: 0 14px;
+font-size: 14px;
+line-height: 38px;
+min-width: 105px;
+color: #ddd;
+background: rgb(73, 73, 73);
+}
 
 
 
@@ -1337,6 +1362,11 @@ font-size: 14px;
 @media screen and (max-width: 1340px){
 input.inline-edit{
   margin-left: 4;}
+
+
+.button5 {
+margin-left: 890px;
+}
 
   .done1{
   position:fixed; line-height:42px;z-index:1000000 min-width12px;
