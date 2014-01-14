@@ -33,10 +33,10 @@ text-transform: underline;
 background: #ccc;
 color: #666;
 cursor: pointer;
-position: fixed;
+position: absolute;
 z-index: 100001;
 bottom: 12px;
-margin-left: 1000px;
+margin-left: 750px;
 margin-bottom: 6px;
 -webkit-transition: all 0.2s ease-in-out;
 -moz-transition: all 0.2s ease-in-out;
@@ -45,7 +45,7 @@ transition: all 0.2s ease-in-out;
 }
 
 .tabs label:hover {
-  background: #bbb;
+  background: #ccc;
   color: #666;
 }
 .tabs .tab-content {
@@ -1000,7 +1000,7 @@ min-width: 105px;
     display: inline-block;
 font-family: inherit;
 text-decoration: none;
-margin-left: 88%;
+margin-left: 1170px;
 padding: 0 12px;
 
 text-align: center;
