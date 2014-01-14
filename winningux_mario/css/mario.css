@@ -1005,7 +1005,7 @@ min-width: 105px;
     display: inline-block;
 font-family: inherit;
 text-decoration: none;
-margin-left: 1190px;
+margin-left: 940px;
 padding: 0 12px;
 bottom:3px;
 text-align: center;
@@ -1031,7 +1031,7 @@ background: rgb(73, 73, 73);
     display: inline-block;
 font-family: inherit;
 text-decoration: none;
-margin-left: 1190px;
+margin-left: 940px;
 padding: 0 12px;
 bottom:3px;
 text-align: center;
@@ -1367,7 +1367,7 @@ input.inline-edit{
 
 
 .button5 {
-margin-left: 890px;
+right:5%;
 }
 
   .done1{
@@ -1376,8 +1376,8 @@ margin-left: 890px;
 
 .button4{
 position: fixed;
-margin-left: 90%;
-min-width: 40px;
+right:5%;
+min-width: 50px;
 }
 
 .tabs label {
