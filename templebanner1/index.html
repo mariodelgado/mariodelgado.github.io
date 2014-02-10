@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+
+	<title>EasyZoom, jQuery image zoom plugin</title>
+
+	<link rel="stylesheet" href="css/example.css" />
+	<link rel="stylesheet" href="css/pygments.css" />
+	<link rel="stylesheet" href="css/easyzoom.css" />
+
+	<!--
+	EasyZoom by Matt Hinchliffe <http://maketea.co.uk>
+	Find out more at GitHub <http://github.com/i-like-robots/EasyZoom>
+	-->
+
+	<!-- Google Analytics tracking code -->
+	<script>
+		var _gaq=[['_setAccount','UA-2508361-9'],['_trackPageview']];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+
+</head>
+<body>
+
+	<div class="container">
+<section>
+
+			<h2>
+				Adjacent
+			</h2>
+
+			<!-- Placeholder for demo purposes only -->
+			<div style="float: right; width: 310px; height: 400px; background: #EEE;"></div>
+
+			<div class="easyzoom easyzoom--adjacent">
+				<a href="example-images/banner1.png">
+					<img src="example-images/banner1.png" alt=""  height="800" />
+				</a>
+			</div>
+
+		
+
+		</section>
+</div>
+
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="dist/easyzoom.js"></script>
+	<script>
+		// Instantiate EasyZoom plugin
+		var $easyzoom = $('.easyzoom').easyZoom();
+
+		// Get the instance API
+		var api = $easyzoom.data('easyZoom');
+	</script>
+
+</body>
+</html>
