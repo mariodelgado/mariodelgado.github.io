@@ -1,0 +1,14 @@
+* { margin: 0; }
+div { min-height: 10em; transition: linear 1s; }
+.left {
+  float: left;
+  width: 12%;
+  background: white;
+}
+.right {
+  float: right;
+  width: 81%;
+  background: white;
+}
+.expanded { width: 100%; }
+.collapsed { width: 0%; }
