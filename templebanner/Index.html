@@ -1,0 +1,31 @@
+<head>
+    <title>Thai Temple Banner</title>
+    <link rel="stylesheet" type="text/css" href="css/new.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<div class='left'><a href="banner.html">
+                    <img src="example-images/banner1.png" alt=""  height="500" />
+                </a>
+                <br><br><p style="font-family: Open Sans; color:white;">Tap for a Detailed View <br>of the Thai Temple Banner</p>
+                </div>
+                
+
+<div class='right'>
+
+<iframe  style="display:block; margin:0 auto;" width="6 60" height="500" src="http://www.youtube.com/embed/He7Ge7Sogrk?rel=0?" frameborder="0" allowfullscreen></iframe>
+<br><br><p style="font-family: Open Sans; color:white; text-align:center;">Tap to Watch a Video of an Elephant Painting</p>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    
+    $('div').click(function(){
+    $(this).toggleClass('expanded')
+    .siblings().toggleClass('collapsed');
+});
+</script>
+
+</body>

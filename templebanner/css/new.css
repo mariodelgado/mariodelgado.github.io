@@ -1,0 +1,25 @@
+body
+{
+    background: black;
+}
+
+* { margin: 0; }
+div { min-height: 10em; transition: linear 1s; }
+.left {
+  float: left;
+  width: 22%;
+  background: black;
+  text-align: center;
+}
+.right {
+  float: right;
+  width: 78%;
+  background: black
+}
+
+
+iframe
+{
+    text-align: center;
+    vertical-align: middle;
+}
