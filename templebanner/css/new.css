@@ -18,8 +18,22 @@ div { min-height: 10em; transition: linear 1s; }
 }
 
 
-iframe
-{
-    text-align: center;
-    vertical-align: middle;
+
+
+
+a{
+  color: #aaa;
+  text-decoration: none;
+}
+footer{
+  height:100px;
+  display: block;
+  background-color: #222;
+  color:#fff;
+  bottom: -10px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #aaa;
+  vertical-align: middle;
+  text-align: center;
 }
